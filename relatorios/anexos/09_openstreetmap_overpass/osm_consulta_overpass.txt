@@ -1,0 +1,7 @@
+[out:json][timeout:180];
+area["name"="Porto Alegre"]["admin_level"="8"]["boundary"="administrative"]->.a;
+(
+  nwr["amenity"~"^(school|kindergarten|college|university|hospital|clinic|doctors|social_facility|shelter|fire_station|police|community_centre)$"](area.a);
+  nwr["emergency"="assembly_point"](area.a);
+);
+out tags center;

@@ -1,0 +1,3000 @@
+                   AVALIAÇÃO E
+             RECUPERAÇÃO DO
+        SISTEMA DE PROTEÇÃO
+l
+            CONTRA CHEIAS DE
+                 PORTO ALEGRE
+
+
+
+               P05 – Parte I
+             Estudo Hidrológico
+
+
+
+                  24 de junho de 2026
+
+
+
+
+    1
+                                   P05 – Parte I
+                                 Estudo hidrológico
+         Avaliação e Recuperação do Sistema de Proteção Contra
+                         Cheias de Porto Alegre
+
+
+
+
+                                          24/06/2026
+
+
+
+
+RHAMA ANALYSIS                                   EMPRESA SOLICITANTE
+
+Responsável técnico                              Departamento Municipal de Água e Esgotos -
+Eng. Carlos E. M. Tucci                          DMAE
+E-mail: carlos.tucci@rhama-analysis.com          Contato: Darcy Nunes
+Telefone:                                        E-mail: darcy@dmae.prefpoa.com.br
+                                                 Telefone: (51) 99371 5515
+Responsável comercial e financeiro
+Rafael Tucci
+E-mail: rafael.tucci@rhama-analysis.com
+Telefone: 51 3287 6887
+
+Gestão de projetos
+Maria Eduarda Alves
+E-mail: mariaeduarda.alves@rhama-analysis.com
+Telefone: 51 3287 6887
+
+
+
+
+                                             2
+                           CONTROLE DE REVISÕES
+                Relatório n° 05 – Estudo Hidrológico – Parte I
+           Data de                                                   Verificação
+Revisão                         Descrição da revisão
+           entrega                                                 Rhama Analysis
+  00      04/04/2025           Primeira versão do relatório.       Carlos E. M. Tucci
+                        Segunda versão do relatório. Atendimento
+                        às revisões da equipe técnica do DMAE e
+  01      24/06/2026                                               Carlos E. M. Tucci
+                         complementação da reconstituição dos
+                                  níveis da cheia de 2024
+
+
+                             Equipe técnica
+
+Profissional           Formação                Atividades
+Carlos Tucci           Eng. Civil, PhD         Responsável Técnico
+Maria Eduarda Alves    Eng. Ambiental, MSc     Gerente de Operações
+Dionatan Bressan       Eng. Produção           Coordenação de Projetos
+Leon Neto              Eng. Produção           Gestão de Projetos
+Paola Kuele            Eng. Ambiental, MSc     Líder Técnica
+André Silveira         Eng. Civil, DSc         Equipe Técnica
+Daniele Silva          Eng. Civil, DSc         Equipe Técnica
+Rodrigo Biz            Eng. Ambiental          Equipe Técnica
+
+
+
+
+                                   3
+          1     APRESENTAÇÃO ......................................... 9
+          2     CONTEXTUALIZAÇÃO ............................... 11
+          2.1 O SISTEMA DE PROTEÇÃO CONTRA CHEIAS –
+          SPCC .................................................................. 13
+          2.2    OBJETIVO .................................................. 15
+          2.3    RESUMO DO RELATÓRIO ............................ 15
+          3     METODOLOGIA......................................... 16
+          4     SÉRIE HISTÓRICA DE NÍVEIS MÁXIMOS 17
+          4.1    LOCALIZAÇÃO DAS RÉGUAS ........................ 17
+          4.2    ANÁLISE DOS REFERENCIAIS TOPOGRÁFICOS .
+SUMÁRIO
+
+
+
+                 .................................................................. 22
+          4.3    CONSOLIDAÇÃO DOS NÍVEIS MÁXIMOS ....... 23
+          5     ANÁLISE ESTATÍSTICA DOS NÍVEIS ........ 30
+          5.1    TESTE DE INDEPENDÊNCIA ......................... 30
+          5.2    TESTES DE TENDÊNCIA .............................. 31
+          5.3 DETERMINAÇÃO                DA           CURVA               DE
+          PROBABILIDADE NÍVEIS MÁXIMOS: DISTRIBUIÇÃO
+          ESTACIONÁRIA ................................................... 34
+          5.3.1 TESTE DE KOLMOGOROV SMIRNOV .......... 36
+          5.3.2 AVALIAÇÃO DO GRAU DE ADERÊNCIA....... 36
+          5.3.3 TEMPOS DE RETORNO ............................. 38
+          5.4 DETERMINAÇÃO       DA      CURVA              DE
+          PROBABILIDADE     DE    NÍVEIS        MÁXIMOS:
+          DISTRIBUIÇÃO NÃO-ESTACIONÁRIA.................... 39
+          5.4.1 SELEÇÃO DO MODELO ............................. 40
+          5.4.2 AVALIAÇÃO DO GRAU DE ADERÊNCIA....... 42
+          5.4.3 TEMPOS DE RETORNO ............................. 43
+          6     EVENTOS DE 1941 E 2024 ....................... 46
+          6.1    DADOS DOS EVENTOS ................................ 46
+          6.2 RECONSTITUIÇÃO                     DOS          NÍVEIS            DO
+          HIDROGRAMA DE CHEIA DE 2024 NO POSTO CAIS C6
+              .................................................................. 48
+          6.3 EFEITO DE MUDANÇA CLIMÁTICA OBSERVADO
+          EM 2024 ............................................................. 53
+          7     PROJEÇÃO DE MUDANÇA CLIMÁTICA ..... 55
+
+                          4
+          7.1 IDENTIFICAÇÃO DOS CENÁRIOS CLIMÁTICOS
+          POTENCIAIS ....................................................... 55
+          7.2 METODOLOGIA DOS DADOS DE PROJEÇÃO
+          CLIMÁTICA ......................................................... 57
+          7.2.1 AVALIAÇÃO DOS MODELOS ...................... 57
+          7.3    SELEÇÃO DOS CENÁRIOS CLIMÁTICOS ........ 58
+          8     DEFINIÇÃO DO MODELO HIDROLÓGICO 62
+          9     CONSIDERAÇÕES FINAIS ........................ 65
+          REFERÊNCIAS................................................ 66
+          APÊNDICE A.            Tempos de retorno da elevação
+          do Guaíba              ............................................. 73
+SUMÁRIO
+SUMÁRIO
+
+
+
+
+                         5
+                                      Lista de tabelas
+
+Tabela 1. Informações das estações de monitoramento de nível d’água do
+Guaíba. ...................................................................................................... 22
+Tabela 2. Cotas máximas anuais do Guaíba (m) em diversos locais no Cais Mauá
+- SÉRIE NÃO-HOMOGÊNEA. ........................................................................ 24
+Tabela 3. Cotas máximas anuais do Guaíba no Cais Mauá (Doca 4) - série não
+homogênea (referencial Cais)...................................................................... 28
+Tabela 4. Cotas (m) máximas anuais do Guaíba no Cais Mauá (Doca 4) - série
+homogênea (Datum Imbituba). ................................................................... 29
+Tabela 5. Resultados dos tempos de retorno – distribuição estacionária. Valores
+arredondados. ............................................................................................ 38
+Tabela 6. Parâmetros para os modelos GEV. ................................................ 39
+Tabela 7. Parâmetros para os modelos Gumbel. ........................................... 39
+Tabela 8. Parâmetros para modelo GEV. ...................................................... 40
+Tabela 9. Parâmetros para modelo Gumbel. ................................................. 40
+Tabela 10. Modelos GEV-II e GUMBEL-II ..................................................... 41
+Tabela 11. Resultados a partir do Z-score. ................................................... 41
+Tabela 12. Resultados dos tempos de retorno – distribuição não estacionária.
+Valores arredondados. ................................................................................ 44
+Tabela 13. Estações telemétricas da ANA com dados de 2024. ...................... 46
+Tabela 14. Níveis diários das Cheias de 1941 e 2024 no Cais Mauá. .............. 51
+Tabela 15. Modelos CMIP6 avaliados. .......................................................... 58
+Tabela 16. Tempos de retorno da elevação do Guaíba - obtidos com Gumbel II.
+................................................................................................................. 73
+Tabela 17. Tempos de retorno da elevação do Guaíba - obtidos com GEV II. . 75
+
+
+
+
+                                                       6
+                                       Lista de figuras
+
+Figura 1. Inundações de maio de 2024 em Porto Alegre. .............................. 11
+Figura 2. Região hidrográfica do Guaíba ...................................................... 12
+Figura 3. Sistema de proteção contra cheias de Porto Alegre. ....................... 14
+Figura 4. Localização dos pôlderes 7 e 8. ..................................................... 14
+Figura 5. Localização da régua linimétrica em mapa de 1906 na Ponta da Cadeia,
+antes da construção do Cais Mauá............................................................... 17
+Figura 6. Similaridade de níveis máximos do Guaíba das estações 87450000, da
+SOP e DNPVN. ........................................................................................... 19
+Figura 7. Mosaico de fotos mostrando a estação Praça da Harmonia próximo ao
+prédio administrativo do porto. ................................................................... 21
+Figura 8. Localização das estações de monitoramento de nível da água no Guaíba.
+................................................................................................................. 22
+Figura 9. Foto da cheia de 1967. ................................................................. 25
+Figura 10. Relação entre níveis máximos anuais da estação 87450003 - Praça da
+Harmonia e o linígrafo da DNPVN, com inclusão de ponto de 2024. ............... 26
+Figura 11. Gráfico do teste não paramétrico Mann-Kendall. ........................... 34
+Figura 12. Gráfico QQ Plot para distribuição GEV. ......................................... 37
+Figura 13. Gráfico QQ Plot para distribuição Gumbel. .................................... 37
+Figura 14. Gráfico QQPlot para GEV-II. ........................................................ 42
+Figura 15. Gráfico QQPlot para Gumbel-II. ................................................... 43
+Figura 16. Tempos de retorno da elevação do Guaíba - obtidos com Gumbel II.
+................................................................................................................. 45
+Figura 17. Tempos de retorno da elevação do Guaíba - obtidos com GEV II. .. 45
+Figura 18. Localização das estações telemétricas consideradas para o estudo
+localizadas na Região Hidrográfica do Guaíba. .............................................. 47
+Figura 19. Níveis da cheia de 2025 no Guaíba em Usina do Gasômetro e Cais
+Mauá C6. ................................................................................................... 49
+Figura 20. Relação dos níveis da cheia de 2025 no Guaíba em Usina do Gasômetro
+e Cais Mauá C6. ......................................................................................... 50
+Figura 21. Cotagramas e pluviogramas referentes aos eventos de 1941 e 2024.
+................................................................................................................. 51
+Figura 22. Índice de El Niño, demostrando um efeito forte antecedente as chuvas
+de abril/maio de 2024................................................................................. 53
+Figura 23. Diagramas de Taylor para Região Hidrográfica do Guaíba, avaliando a
+precipitação nos modelos do CMIP6 em relação à reanálise ERA5.................. 60
+Figura 24. Esquematização do modelo MGB – IPH. ....................................... 63
+
+
+
+
+                                                       7
+               Lista de acrônimos
+
+ANA     Agência Nacional de Águas e Saneamento Básico
+
+CPRM    Companhia de Pesquisa de Recursos Minerais
+
+CMIP    Coupled Model Intercomparison Project
+
+DEPRC   Departamento Estadual de Portos, Rios e Canais
+
+DEP     Departamento de Esgotos Pluviais
+
+DMAE    Departamento Municipal de Água e Esgotos
+
+DNOS    Departamento Nacional de Obras e Saneamento
+
+DNPVN   Departamento Nacional de Portos e Vias Navegáveis
+
+EBAP    Estação de Bombeamento de Águas Pluviais
+
+ECMWF   European Centre for Medium-Range Weather Forecasts
+
+ERA5    5ª Geração da Reanálise do ECMWF
+
+FEPAM   Fundação Estadual de Proteção Ambiental Luís Roessler
+
+IBGE    Instituto Brasileiro de Geografia e Estatística
+
+IPH     Instituto de Pesquisas Hidráulicas
+
+IPCC    Intergovernmental Panel on Climate Change
+
+MDT     Modelo Digital de Terreno
+
+PMPA    Prefeitura Municipal de Porto Alegre
+
+RMSD    Raíz do Erro Quadrático Médio
+
+UFRGS   Universidade Federal do Rio Grande do Sul
+
+URH     Resposta Hidrológica
+
+SEMA    Secretaria Estadual do Meio Ambiente e Infraestrutura
+
+SIG     Sistema de Informação Geográfica
+
+SPCC    Sistema de Proteção Contra Cheias
+
+SPH     Superintendência de Portos e Hidrovias
+
+SSP     Shared Socio-economic Pathways
+
+
+
+
+                               8
+1 APRESENTAÇÃO
+       Este documento refere-se ao projeto de Avaliação e Recuperação do
+Sistema de Proteção Contra Cheias de Porto Alegre (SPCC), objeto da
+Inexigibilidade n° 22/2024, processo nº 24.0.000096487-1-2222/2024,
+formalizada em 16/10/2024, entre a empresa Rhama Analysis Consultoria
+Ambiental Ltda., responsável pelo desenvolvimento do estudo, e o Departamento
+Municipal de Água e Esgotos (DMAE), contratante.
+       O objetivo do projeto é aumentar a resiliência do Sistema de Proteção
+Contra Cheias por meio de propostas de recuperação e modernização, além da
+avaliação de soluções para as áreas atualmente desprotegidas. A ordem de
+serviço foi emitida em 04/11/2024 com prazo de 15 (quinze) meses para
+execução das 9 (nove) fases previstas, que serão consolidadas nos produtos
+listados abaixo:
+   •   Produto nº 01 - Plano de Trabalho: documento inicial que orienta as
+       atividades do estudo;
+   •   Produto nº 02 - Resumo e Análise Preliminar das Informações do SPCC:
+       avaliação dos dados fornecidos sobre o SPCC;
+   •   Produto nº 03 - Relatório de Inspeção: detalhamento sobre os aspectos
+       do SPCC identificados nas visitas técnicas e no levantamento topográfico;
+   •   Produto nº 04 - Relatório de Diagnóstico Consolidado: consolidação dos
+       produtos n° 02 e n° 03 para um diagnóstico final;
+   •   Produto nº 05 - Estudo Hidrológico: análise dos dados pluviométricos e
+       fluviométricos, considerando mudanças climáticas;
+   •   Produto nº 06 - Estudo Hidrodinâmico: simulação para determinar as
+       novas cotas para os diques do SPCC;
+   •   Produto nº 07 - Relatório de Modernização: avaliação de propostas para
+       modernização do SPCC;
+   •   Produto nº 08 - Estudos e Projetos dos Pôlderes 7 e 8: análise de
+       alternativas e elaboração de anteprojeto para proteção da região;
+   •   Produto nº 09 - Relatório de Complementação do SPCC: estudo de
+       concepção para proteção das áreas ainda não contempladas pelo SPCC.
+
+
+
+
+                                      9
+       Este documento se refere à Parte I do Relatório nº 05, denominado P05
+– Estudo Hidrológico, que tem como objetivo fornecer subsídios para a
+modelagem hidrodinâmica através da avaliação da tendência de modificação das
+precipitações devido a mudanças climáticas. O principal conteúdo do relatório é
+listado abaixo:
+       Parte I:
+   •   Consolidação da série histórica de níveis máximos;
+   •   Análise estatística dos níveis máximos;
+   •   Análise das cheias históricas;
+   •   Projeção das mudanças climáticas;
+   •   Descrição do modelo hidrológico.
+
+
+       Parte II:
+   •   Avaliação da tendência das precipitações considerando o efeito das
+       mudanças climáticas;
+   •   Consolidação do modelo hidrológico;
+   •   Série de vazões considerando mudanças climáticas.
+
+
+
+
+                                        10
+2 CONTEXTUALIZAÇÃO
+       Este estudo visa aumentar a resiliência de Porto Alegre em relação a
+eventos climáticos extremos, tendo em vista, principalmente, as ocorrências que
+afetaram diversos municípios do Rio Grande do Sul entre abril e maio de 2024.
+Diversas áreas da cidade tiveram que ser evacuadas, a energia elétrica e o
+abastecimento de água também foram afetados, assim como aumentaram os
+riscos de doenças de veiculação hídrica, como leptospirose.
+       Apesar da existência do Sistema de Proteção Contra Cheias (SPCC),
+desenvolvido em resposta às cheias de 1941 e 1967, a enchente de abril-maio
+de 2024 no sistema de rios Jacuí, Sinos, Caí, Gravataí, Delta do Jacuí e Lago
+Guaíba causou a inundação de parte da cidade, como pode ser observado na
+imagem de satélite do dia 08/05/2024, apresentada na Figura 1. Além disso, as
+inundações podem ser agravadas pelo efeito do vento sobre a grande superfície
+livre das lagoas, conhecido como efeito de seiche1.
+
+
+
+
+Fonte: elaborado com base na imagem do satélite Copernicus Sentinel-2 de 08/05/2024.
+                  Figura 1. Inundações de maio de 2024 em Porto Alegre.
+
+
+1 Seiches podem ser causadas quando ventos fortes e mudanças rápidas na pressão atmosférica empurram
+
+a água de uma extremidade de um corpo d’água para a outra. Quando o vento para, a água retorna para o
+lado oposto da área delimitada. Em seguida, a água continua a oscilar. Pode provocar variações semelhantes
+ao observado na maré. Mais informações em:
+https://oceanservice.noaa.gov/facts/seiche.html#:~:text=Seiches%20are%20typically%20caused%20whe
+n,for%20hours%20or%20even%20days.
+
+
+
+
+                                                 11
+        O SPCC de Porto Alegre, projetado nos anos 1960, e implementado,
+parcialmente, em 1970, representa uma solução estrutural importante para
+redução dos impactos de eventos extremos. Entretanto, é necessário
+identificar possíveis limitações, complementar o sistema nas áreas desprotegidas
+e revisar as estruturas existentes para verificação das cotas. Além disso, é
+importante que o SPCC esteja em condições plenas de funcionamento, ou
+seja, que suas estruturas estejam com manutenção regularizada e prontas para
+operar de forma eficiente sempre que acionadas, garantindo eficácia em
+momentos críticos.
+       A seguir são apresentadas algumas informações relativas ao município de
+Porto Alegre, para fins de contextualização.
+       Porto Alegre tem população estimada de 1.389.322 habitantes em 2024
+(IBGE, 2024) e possui área total de 495,39 km², da qual 82,1% está inserida na
+bacia hidrográfica do lago Guaíba, e o restante na bacia rio Gravataí. Estas bacias
+fazem parte da região hidrográfica do Guaíba (Figura 2), que possui área
+aproximada de 85 mil km² (FEPAM, 2023), sendo de 2,92 mil km2 a área de
+contribuição lateral do lago Guaíba. Os principais rios que contribuem a montante
+do Lago Guaíba são 4 (quatro) dos principais cursos d’água do Estado: rio Jacuí,
+rio dos Sinos, rio Caí e rio Gravataí.
+
+
+
+
+Fonte: elaborado com base em IBGE (2021).
+
+                          Figura 2. Região hidrográfica do Guaíba
+
+
+
+                                            12
+2.1 O SISTEMA DE PROTEÇÃO CONTRA CHEIAS - SPCC
+       No estudo do DNOS (Brasil, 1968a) foram previstos 42,00 km de diques
+para Porto Alegre, com cotas de coroamento de 6,00 a 7,00 m, determinadas
+considerando como 4,75 m a referência da cota de inundação de 1941,
+adicionada à folga mínima de 1,2 m. O conjunto de obras previsto forma sete
+pôlderes, com canais abertos, coletores-tronco e condutos forçados para
+escoamento das águas pluviais e de 17 estações de bombeamento de águas
+pluviais (EBAPs) para recalque das águas pluviais das bacias protegidas pelos
+pôlderes.
+      O SPCC, representado na Figura 3, é constituído, atualmente, por 23
+estações de bombeamento de águas pluviais2 (EBAPs), aproximadamente 52,8
+km de diques3 e 14 comportas (portões) de fechamento dos diques.
+       O conjunto de diques contorna a cidade na parte central, e segue paralelo
+ao Delta do Jacuí, rio Gravataí e lago Guaíba. A cota dos diques foi projetada com
+base na cheia de 1941, considerando uma borda livre. À época do evento, os
+dados de cota estimavam um tempo de retorno de cerca de 370 anos.
+       Diante da situação apresentada, o objetivo deste estudo é desenvolver as
+análises necessárias para aumentar a resiliência do Sistema de Proteção Contra
+Cheias de Porto Alegre. Para isso, será realizada uma série de estudos, que serão
+consolidados em 9 (nove relatórios) que incluem os seguintes assuntos: (i)
+diagnóstico do SPCC; (ii) estudo hidrológico e hidrodinâmico, considerando
+mudanças climáticas; (iii) estudos de alternativas e anteprojeto dos pôlderes 7 e
+8 (Figura 4); (iv) análise de alternativas para as áreas desprotegidas do
+município.
+
+
+
+
+2
+  As EBAPS n° 08 - Vila Farrapos, 21 - Asa Branca e 22 - Trincheira Ceará têm função de drenagem
+urbana (interna), não exercendo ação direta na proteção contra cheias.
+3
+   Esta extensão foi calculada a partir do arquivo dos diques disponibilizado pelo DMAE e
+complementado com as informações obtidas nas reuniões com o DMAE ao longo de 2024.
+
+                                             13
+Fonte: elaborado com base em dados disponibilizados pelo DMAE em 2024.
+
+              Figura 3. Sistema de proteção contra cheias de Porto Alegre.
+
+
+
+
+Fonte: elaborado com base em dados disponibilizados pelo DMAE em 2024.
+
+                         Figura 4. Localização dos pôlderes 7 e 8.
+
+
+                                              14
+2.2 OBJETIVO
+       O Relatório P05 tem como objetivo principal a simulação das vazões
+afluentes ao lago Guaíba, de modo a fornecer subsídios técnicos consistentes
+para a modelagem hidrodinâmica e, consequentemente, para a definição da nova
+cota de projeto dos diques do sistema de proteção contra cheias.
+       A Parte I do produto tem por finalidade consolidar a fundamentação
+teórica, metodológica e os dados hidrológicos disponíveis, estabelecendo as
+bases necessárias para a adequada aplicação do modelo hidrológico na Parte II.
+
+2.3 RESUMO DO RELATÓRIO
+       A parte I do P05 encontra-se subdividida em 9 capítulos. O capítulo 1
+apresenta o projeto e resumo dos produtos que o compõem. O capítulo 2
+contextualiza o estudo e apresenta o objetivo da etapa em questão, enquanto o
+capítulo 3 descreve a metodologia adotada. Em seguida, no capítulo 4 é
+apresentado a análise sobre a série histórica de níveis máximos, consolidando os
+valores para um mesmo referencial. No capítulo 5, são apresentados os
+resultados da avaliação da estacionariedade da série histórica de níveis de água
+do Lago Guaíba. No capítulo 6, é feita uma análise sobre as duais maiores
+enchentes registradas no município de Porto Alegre, as cheias de 1941 e 2024.
+Na sequência, no capítulo 7 é feito a análise sobre os modelos de projeções
+climáticas que melhor representam a Região Hidrográfica do Guaíba. No capítulo
+8, descreve-se o modelo hidrológico utilizado. Por fim, o capítulo 9 apresenta as
+considerações finais da parte I do P05.
+
+
+
+
+                                      15
+3 METODOLOGIA
+      O P05 – Estudo Hidrológico do SPCC foi dividido em duas partes,
+sendo, a seguir, apresentada a metodologia aplicada para a Parte I, que envolve
+2 (duas) etapas principais: (i) análise de dados hidrológicos; e (ii) projeção de
+mudança climática.
+      O primeiro passo consistiu na consolidação dos dados históricos de nível
+d’água do Guaíba, dada a existência de diferentes estações ao longo do tempo e
+eventuais alterações nos referenciais topográficos. Foi necessário realizar um
+processo de homogeneização da série histórica, ajustando todos os dados para
+um mesmo local (Doca 4) e ao datum altimétrico de Imbituba.
+        Com a série consolidada, foi analisada a série de níveis máximos anuais,
+utilizando testes estatísticos e, em seguida, a modelagem estatística de extremos,
+com o ajuste de séries estacionárias e não-estacionárias4, servindo como subsídio
+para etapas futuras do projeto.
+       No que se refere às chuvas, foram analisadas séries de precipitação da
+Região Hidrográfica do Guaíba, com o objetivo de identificar tendências de
+aumento associadas às mudanças climáticas. Essas análises foram orientadas
+pelos cenários do Intergovernmental Panel on Climate Change (IPCC),
+subsidiando a geração de séries sintéticas de precipitação futura. Dentro dos
+modelos de projeções climáticas disponíveis, foram selecionados aqueles que
+apresentaram melhores resultados e ajustes para o período histórico na Região
+Hidrográfica do Guaíba, garantindo maior confiabilidade nos cenários utilizados
+para avaliação dos impactos das mudanças climáticas.
+       A partir das projeções de precipitação, serão definidas as vazões do Guaíba
+em Porto Alegre por meio de um modelo hidrológico, que será abordado na Parte
+II do relatório P05.
+
+
+
+
+4
+  Uma série é estacionária quando as suas estatísticas não se alteram com o tempo. Enquanto
+uma série não-estacionária é quando esta série se altera com o tempo em função de fatores
+como urbanização da bacia (aumento das vazões máximas), construção da barragem a montante
+(alteração na série diária), mudança climática, entre outros.
+
+                                          16
+4 SÉRIE HISTÓRICA DE NÍVEIS MÁXIMOS
+
+4.1 LOCALIZAÇÃO DAS RÉGUAS
+      Os registros de níveis d’água do Guaíba, em Porto Alegre, iniciaram em
+1899, conforme consta no estudo da OTI-Engevix (BRASIL, 1968). Segundo este
+estudo, de 1899 a 1935, os dados provieram de uma régua linimétrica da então
+Secretaria de Obras Públicas do Rio Grande do Sul (SOP). Santos et al. (1999)
+apontam que o local original dessa régua era o trapiche da antiga Diretoria de
+Higiene, localizada na Ponta da Cadeia (no canto noroeste do quadrilátero original
+da Praça da Harmonia), local que foi posteriormente aterrado para abrigar o
+extremo oeste do Cais Mauá.
+        A Figura 5 é um excerto de um mapa de 1906 mostrando o local. A
+localização da régua linimétrica está marcada no círculo vermelho, na Ponta da
+Cadeia, antes da construção do Cais Mauá (projeto da época do porto sobreposto
+à linha da margem), enquanto o círculo azul mostra a Casa de Correção
+(presídio).
+
+
+
+
+Fonte: adaptado do mapa de Porto Alegre elaborado por Attilio Trebbi, em 1906.
+
+  Figura 5. Localização da régua linimétrica em mapa de 1906 na Ponta da Cadeia,
+                         antes da construção do Cais Mauá.
+
+       A inauguração oficial do porto foi em 1921, de forma que o aterro já havia
+sido concluído na Ponta da Cadeia, soterrando o trapiche da Higiene. O cais ficou
+na cota 3,00 m de acordo com a escala da régua linimétrica instalada em 1899,
+cujo zero seria o nível médio de estiagem do Guaíba estimado na época (Alves,
+2003).
+
+
+
+                                                17
+       Não há informações precisas quanto ao local da régua linimétrica entre os
+anos 1921 e 1928, entretanto, de acordo com Santos et al. (1999), no local do
+aterro do trapiche foi instalada a Diretoria de Viação Fluvial, logo é plausível que
+a régua linimétrica tenha sido realocada nas suas imediações, na linha do cais
+construído.
+       Em agosto de 1929 foi implantado o posto fluviométrico de nome Porto
+Alegre (código Hidroweb 87450000) que, segundo Germano et al. (2024),
+poderia ter se localizado no Espigão 3 (local da atual praça Edgar Schneider,
+dentro da área do porto). Em 1929 o estágio da construção do porto, pelo que
+se pode depreender da dissertação de Alves (2003), foi até o Espigão 3, portanto
+é plausível considerar que esta foi mesmo a localização deste posto que
+funcionou até 1952. Neste Espigão, que tem na face leste a Doca 4, estava
+instalado também um linígrafo do antigo órgão federal DNPVN (Departamento
+Nacional de Portos e Vias Navegáveis), com dados a partir de 1936 e que
+funcionou até pelo menos 1968, conforme consta em OTI-Engevix (BRASIL,
+1968).
+       Quando a OTI-Engevix (BRASIL, 1968) apresenta os níveis máximos
+anuais do Guaíba entre 1899 e 1935 como tendo origem no “linímetro da SOP”,
+é bem provável que de 1899 a 1928, pela história do porto, o ponto de medida
+tenha sido na Ponta da Cadeia (Praça da Harmonia) e que de 1929 a 1935 o
+ponto seja de fato na Doca 4 (e possivelmente neste período o “linímetro da SOP”
+seja a própria régua do posto 87450000). A Figura 6 mostra uma similaridade
+dos dados do posto 87450000 com os da OTI-Engevix no período comum de
+1929 a 1952.
+
+
+
+
+                                       18
+Fonte: elaboração própria, 2026.
+
+Figura 6. Similaridade de níveis máximos do Guaíba das estações 87450000, da SOP
+                                     e DNPVN.
+
+        Aceita-se que a régua da SOP, em qualquer localização que tenha estado,
+e o linígrafo do DNPVN tenham o mesmo zero de escala com valor 3,00 m abaixo
+do cais. A cota 3,00 m está presente nas plantas antigas do projeto do cais como
+a cota da cobertina (piso do cais), na época referida a um zero que seria o nível
+médio de estiagem do Guaíba (Alves, 2003). A OTI-Engevix apresenta os níveis
+máximos anuais de 1899 a 1967, como sendo consistentes para a Doca 4
+(Espigão 3). Entretanto, poderia ser aventado que no período e 1899 a 1928 os
+níveis máximos apresentados pela OTI-Engevix estariam subestimados pela linha
+d’água decrescente entre a Doca 4 e a Ponta da Cadeia.
+       A montante do Espigão 3, numa distância próxima, fica o Espigão 4 do
+Armazém C6, onde foi instalado em 2014 o posto Cais Mauá C6 (código
+87450004) operado pela SEMA/RS. O Espigão 4 é aquele que se vê ao norte da
+atual rodoviária num mapa de Porto Alegre.
+      De 1968 a 1995 a única fonte de dados de nível no cais Mauá foi o posto
+Praça da Harmonia (código 87450003), instalado logo após a enchente de 1941,
+na antiga Praça da Harmonia (Ponta da Cadeia), hoje Cais Embarcadero (parte
+da antiga área da Praça da Harmonia é a atual Praça Brigadeiro Sampaio, sem
+contato com o Guaíba). Na nomenclatura do porto a régua ficava na altura do
+Armazém A7, nas imediações da antiga régua da SOP. Arquivo obtido no fim dos
+anos 1990 junto ao DNAEE e CPRM, mostra registro de dados diários neste posto
+de junho de 1941 até a data de 31 de agosto de 1995. No relatório dos
+
+                                      19
+nivelamentos feitos por Santos et al. (1999) de novembro de 1999, há informação
+de uma régua antiga e de uma nova em uso.
+      A régua antiga é a original do posto Praça da Harmonia (código
+87450003), localizada próximo ao armazém A7 enquanto a nova régua foi
+implantada numa escada de marinheiro em frente ao portão P1 do armazém B1.
+Como em 1996 foi extinto o Departamento Estadual de Portos, Rios e Canais
+(DEPRC), que operava o porto de Porto Alegre, é possível que realmente se tenha
+dados do posto Praça da Harmonia (código 87450003), junto ao armazém A7,
+somente até 1995. Sucedeu ao DEPRC a Superintendência de Portos e Hidrovias
+(SPH), embora oficialmente criada somente em 1998.
+       O trabalho de Santos et al. (1999) ajuda a esclarecer o porquê da
+manutenção do mesmo nome (Praça da Harmonia) quando a nova régua foi
+instalada frente ao armazém B1. O porto trabalha há décadas com o conceito de
+zero hidrográfico e este foi chamado de “Zero da Harmonia” pois a referência era
+a régua do posto Praça da Harmonia no extremo do cais. Santos et al. (1999)
+mencionaram o “Zero da Harmonia” como sinônimo de zero hidrográfico,
+estendido a todo cais. O cais é suposto estar todo na cota 3,00 m em relação ao
+zero hidrográfico, assim tanto a antiga como a então nova régua da SPH
+obedeciam ao mesmo “Zero da Harmonia”, ou seja, ao mesmo zero hidrográfico.
+No nivelamento descrito em Santos et al. (1999) foi encontrada uma diferença a
+mais de apenas quatro centímetros entre a cobertina (piso do cais) frente ao
+armazém B3 e a cobertina frente ao armazém A7.
+       Com série de 1942 a 1995, o posto Praça da Harmonia (Armazém A7) pode
+complementar a série da OTI-Engevix entre 1968 e 1995, por ser a única fonte
+de dados de níveis junto ao cais neste período. Entretanto o posto da Praça da
+Harmonia não é rigorosamente representativo para Doca 4 (referência usada pela
+OTI-Engevix), pois os níveis do Armazém A7 estão mais baixos devido à
+declividade da linha d’água ao longo do cais. Deve-se esperar que este desnível
+aumente com o aumento da vazão. Assim, além de eventuais erros de instalação
+de régua que impliquem em zeros mal posicionados, há uma incerteza de como
+se poderia fazer a correção.
+       Entre 1996 e 1999, o posto Praça da Harmonia original foi extinto, sendo
+substituído por outro posto, localizado cerca de 970 m a montante, próximo ao
+Prédio Administrativo do porto, mas com mesmo nome e código: Praça da
+Harmonia, código Hidroweb 87450003 (BRASIL, 2020), causando alguma
+confusão. A régua deste posto, operada pela gestora do porto da época (SPH),
+teve zero ajustado para sua cota 3,00 m para coincidir com a altura do cais, mas
+com zero hidrográfico ajustado para -3,18 m abaixo do cais, ou seja, o zero
+hidrográfico deixou de ser coincidente com o zero da régua. A Figura 7 mostra
+um mosaico de fotos referentes ao local desta “nova” Praça da Harmonia.
+
+                                     20
+Fonte: elaborado com base em Vaz (2015).
+
+   Figura 7. Mosaico de fotos mostrando a estação Praça da Harmonia próximo ao
+                           prédio administrativo do porto.
+
+        A SPH divulgava os dados dessa “nova” Praça da Harmonia no seu site,
+mas sucessivas mudanças na gestão do porto prejudicaram a manutenção do
+banco de dados (atualmente não se consegue obter esses dados na internet).
+Entretanto, os dados foram baixados por pesquisadores em distintas épocas e
+armazenados em arquivos pessoais, possibilitando o acesso às cotas máximas
+anuais de 1996 a 2015 (com linígrafo a partir de 2012). Em 2014 foi implantado
+o linígrafo da estação Cais C6 (87450004), operado pela SEMA, local que passou
+a ser a referência oficial das medidas de nível d’água do Guaíba, onde a cota 3,00
+m é a do piso do cais. Provavelmente foi nessa época que a “nova” Praça da
+Harmonia junto ao Prédio Administrativo do porto (Armazém B1) foi extinta.
+       Em 2024 houve a necessidade de se instalar um novo posto de medição,
+em virtude da pane sofrida pela estação Cais Mauá C6 (87450004) pela
+inundação que a deixou inoperante. Assim foi instalado o posto Usina do
+Gasômetro (87450004) que se tornou oficial e introduziu uma nova referência de
+alerta à população.
+Na Tabela 1 é sintetizada a situação das réguas de medição do nível do Guaíba
+ao longo do tempo na margem do cais do porto. Na Figura 8 é apresentada a
+localização das estações.
+
+
+
+
+                                           21
+ Tabela 1. Informações das estações de monitoramento de nível d’água do Guaíba.
+                       Código                          Referência            Localização
+  Estações de                      Disponibilidade
+                          da                                da
+ monitoramento                        de dados                         Latitude     Longitude
+                      Estação                          localização
+                         Sem                            Santos et al
+     Posto SOP                       1899 a 1928                       30°1′54″S    51°14′28″O
+                        dados                             (1999)
+                         Sem
+    Posto DNPVN                      1936 a 1967      Brasil, 1968b    30°1′19″S    51°13′20″O
+                        dados
+    Porto Alegre      87450000       1929 a 1952       ANA, 2024       30°1′40″S    51°13′56″O
+                                                       Germano et
+  Praça Harmonia      87450003       1941 a 1995                       30°1′54″S    51°14′28″O
+                                                        al. (2024)
+  Praça Harmonia      87450003       1996 a 2015       Brasil, 2020    30°1′36″S    51°13′52″O
+                                     2014 a 2024
+   Cais Mauá C6 1     87450004                          ANA, 2024      30°1′16″S    51°13′16″O
+                                    2025 até hoje
+       Usina do
+                       87444000       2024 até hoje      ANA, 2024     30°2′5″S     51°14′30″O
+      Gasômetro
+1 A estação Cais Mauá C6 voltou a operar em junho de 2025.
+
+Fonte: elaboração própria (2026)
+
+
+
+
+Fonte: elaboração própria (2025)
+
+Figura 8. Localização das estações de monitoramento de nível da água no Guaíba.
+
+4.2 ANÁLISE DOS REFERENCIAIS TOPOGRÁFICOS
+     Durante anos a Prefeitura Municipal de Porto Alegre (PMPA), bem como
+alguns municípios da sua Região Metropolitana, utilizou o sistema geodésico do
+Observatório da Comissão da Carta Geral do Brasil (precursor da 1ª Divisão de
+Levantamentos do Exército) com a projeção cartográfica Gauss-Krüger (cilíndrica
+
+
+                                               22
+transversa tangente) para representar coordenadas em seus mapas e produtos
+cartográficos derivados. O datum planimétrico era no centro da cidade.
+      O mapeamento da cidade de 1982 foi o último a ser feito por esse sistema,
+sendo que o datum altimétrico já era o de Imbituba-SC. A partir de 2010, o novo
+mapeamento foi iniciado obedecendo resolução do IBGE de 2005, que
+estabeleceu o Sistema de Referência Geocêntrico para as Américas (SIRGAS-
+2000), como novo sistema geodésico de referência. No Decreto 18.315 de 2013
+Porto Alegre institui sua cartografia oficial baseada na projeção cartográfica UTM
+(cilíndrica transversa secante) usando o meridiano central 51º, mantendo o
+datum altimétrico de Imbituba-SC. No mesmo decreto há parâmetros que
+transformam as coordenadas de Gauss-Krüger para UTM, sendo que o erro médio
+espacial é de 53 cm.
+       Há décadas o datum altimétrico oficial de Porto Alegre é o do marégrafo
+de Imbituba-SC. Próximo ao Cais do Porto há a estação geodésica (marco) 1788A
+que teve altimetria recalibrada em 30/07/2018 para 3,02 cm (IBGE, 2018). Na
+calibração anterior este mesmo marco era assumido ter a cota 2,93 m acima do
+nível do mar (VALENTI, 2010). Assim é preciso ter cautela em cotas referidas ao
+marco 1788A, sendo o levantamento de GERMANO et al (2024) o mais atualizado
+e abrangente para todo o Cais Mauá.
+
+4.3 CONSOLIDAÇÃO DOS NÍVEIS MÁXIMOS
+      Conforme descrito no 4.1, historicamente há medidas de níveis máximos
+anuais no Cais Mauá em quatro locais: na Ponta da Cadeia, no Prédio
+Administrativo, na Doca 4 e no Cais C6.
+       As medições na Ponta da Cadeia iniciaram em 1899 em um trapiche na
+orla pristina e depois, de 1921 a 1928 as medições passaram para a borda do
+cais em função da finalização da construção desta parte do cais em 1921.
+Posteriormente, em 1941, logo após a enchente deste ano, foi instalado o posto
+Praça da Harmonia no mesmo local com dados disponíveis até 2008.
+       Nas proximidades do Prédio Administrativo foi instalada uma régua em
+2008 para compor a estação maregráfica Praça da Harmonia, cujo nome pode
+induzir confusão com o posto fluviométrico de mesmo nome da Ponta da Cadeia.
+Os dados deste ponto puderam ser recuperados de alguns acervos pessoais, de
+forma que se dispõe dos níveis máximos anuais neste local de 2008 a 2015.
+        Na Doca 4 recém-construída, foi instalada em 1929 uma régua (“régua do
+Frigorífico”), com dados até 1952, mas no local também funcionou um linígrafo
+de 1936 a 1967, último ano reportado em BRASIL (1968). Este local da Doca 4 é
+a referência tradicional dos valores de níveis do Guaíba, sendo o local definido
+pela OTI-Engevix em 1968 para basear as cotas de projeto do SPCC.
+
+
+                                      23
+       Por fim, no Cais C6, bem próximo à Doca 4, a SEMA instalou um linígrafo
+que passou a fornecer os níveis “oficiais” do Guaíba, a partir de 2014 até sua
+pane no início da cheia de 2024 (a posteriori o valor do nível máximo foi obtido
+a partir do nivelamento da marca da enchente). Por questões operacionais,
+durante a cheia, a SEMA implantou régua e linígrafo na Usina do Gasômetro.
+       Embora todos estes pontos estejam atrelados à mesma cota arbitrária de
+projeto do cais de 3,00 m (ou seja, todas essas réguas medem nível d'água igual
+a 3,00 quando o Guaíba está no limite do cais, respectivamente em cada ponto),
+os valores medidos nos diferentes pontos não configuram uma série homogênea.
+Isto acontece porque o nível d'água ao longo do cais apresenta um desnível para
+jusante, assim um nível medido na Doca 4 será maior que o nível medido na
+Ponta da Cadeia.
+      Assim, com base nos dados originais disponíveis, apresenta-se na Tabela
+2 uma série não-homogênea de níveis máximos do Guaíba.
+
+  Tabela 2. Cotas máximas anuais do Guaíba (m) em diversos locais no Cais Mauá -
+                            SÉRIE NÃO-HOMOGÊNEA.
+   Ano     H (m) Ano        H (m) Ano        H (m) Ano       H (m) Ano         H (m)      Ano H (m)
+  1899 2,60 (a) 1920 1,60 (a) 1941 4,75 (d) 1962 1,25 (d) 1983                 2,32 (e)   2004 1,56 (f)
+  1900 1,48 (a) 1921 1,58 (a) 1942 2,33 (d) 1963 2,67 (d) 1984                 2,56 (e)   2005 2,06 (f)
+  1901 0,98 (a) 1922 1,68 (a) 1943 1,60 (d) 1964 1,73 (d) 1985                 2,15 (e)   2006 1,38 (f)
+  1902 1,99 (a) 1923 1,75 (a) 1944 1,90 (d) 1965 2,72 (d) 1986                 1,73 (e)   2007 2,44 (f)
+  1903 1,45 (a) 1924 1,61 (a) 1945 1,26 (d) 1966 2,61 (d) 1987                 2,36 (e)   2008 1,82 (f)
+  1904 1,51 (a) 1925 1,31 (a) 1946 1,55 (d) 1967 3,13 (d) 1988                 1,98 (e)   2009 2,23 (f)
+  1905 2,50 (a) 1926 2,60 (a) 1947 1,67 (d) 1968 1,18 (e) 1989                 2,00 (e)   2010 1,62 (f)
+  1906 1,53 (a) 1927 1,56 (a) 1948 1,68 (d) 1969 1,36 (e) 1990                 2,22 (e)   2011 2,04 (f)
+  1907 2,00 (a) 1928 3,20 (a) 1949 1,71 (d) 1970 1,71 (e) 1991                 1,45 (e)   2012 1,66 (f)
+  1908 1,69 (a) 1929 2,05 (b) 1950 1,91 (d) 1971 1,72 (e) 1992                 1,94 (e)   2013 2,24 (f)
+  1909 1,52 (a) 1930 2,35 (b) 1951 2,10 (d) 1972 2,21 (e) 1993                 2,07 (e)   2014 2,11 (f)
+  1910 1,34 (a) 1931 1,70 (b) 1952 2,06 (d) 1973 1,93 (e) 1994                 1,86 (e)   2015 2,94 (f)
+  1911 2,05 (a) 1932 1,84 (b) 1953 2,52 (d) 1974 1,48 (e) 1995                 1,96 (e)   2016 2,92 (g)
+  1912 2,13 (a) 1933 1,34 (b) 1954 2,91 (d) 1975 1,64 (e) 1996                 1,62 (f)   2017 2,94 (g)
+  1913 1,19 (a) 1934 S/d (c) 1955 1,80 (d) 1976 1,84 (e) 1997                  1,96 (f)   2018 2,18 (g)
+  1914 2,60 (a) 1935 1,64 (b) 1956 2,32 (d) 1977 2,13 (e) 1998                 1,97 (f)   2019 2,52 (g)
+  1915 1,91 (a) 1936 3,24 (d) 1957 2,08 (d) 1978 1,19 (e) 1999                 1,46 (f)   2020 2,61 (g)
+  1916 1,78 (a) 1937 2,51 (d) 1958 2,00 (d) 1979 1,66 (e) 2000                 1,86 (f)   2021 1,94 (g)
+  1917 0,98 (a) 1938 1,43 (d) 1959 1,99 (d) 1980 1,58 (e) 2001                 2,40 (f)   2022 2,06 (g)
+  1918 1,49 (a) 1939 1,60 (d) 1960 1,77 (d) 1981 1,54 (e) 2002                 2,46 (f)   2023 3,46 (g)
+  1919 2,21 (a) 1940 2,24 (d) 1961 2,16 (d) 1982 1,97 (e) 2003                 1,82 (f)   2024 5,35 (h)
+(a) Régua SOP, Ponta da Cadeia (Brasil, 1968);
+(b) Régua SOP, Doca 4 (Brasil, 1968);
+(c) Em 1934 não houve medição;
+(d) Linígrafo DNPVN, Doca 4 (Brasil, 1968);
+(e) Régua Praça da Harmonia, Ponta da Cadeia (Germano et al., 2024);
+(f) Régua/marégrafo Praça da Harmonia, Prédio Administrativo (Brasil, 2020);
+(g) Régua/linígrafo Cais C6, Espigão 4 (ANA, 2024);
+(h) Régua/linígrafo Usina do Gasômetro (ANA, 2024).
+       Os dados da Tabela 2 por serem não-homogêneos não são propícios a
+uma análise estatística. Desta forma procedeu-se a uma homogeneização da
+série de níveis máximos referindo-os todos ao ponto da Doca 4 (o mesmo do
+
+
+                                                24
+estudo da OTI-Engevix de 1968), mediante uma correção baseada em desníveis
+observados.
+      As cheias de 1967 e 2024 fornecem as primeiras informações. A cota
+máxima da cheia de 1967 reportada pela OTI-Engevix (BRASIL, 1968) foi de 3,13
+m na Doca 4, corroborada por foto (Figura 9) mostrando a ultrapassagem da
+cota do cais nessa magnitude (13 cm). Na série da Praça da Harmonia, a cota
+máxima em 1967 foi de 2,82 m, ou seja, 31 cm abaixo da Doca 4.
+
+
+
+
+Fonte: GauchaZH (Baibich, 2015).
+
+                               Figura 9. Foto da cheia de 1967.
+
+       Em 2024, a partir do trabalho de Germano et al (2024), pode-se verificar
+também a correspondente diferença. O nivelamento efetuado neste trabalho
+permite estabelecer a linha d’água do Espigão 4 (local do posto Cais C6) à Usina
+do Gasômetro (local do posto de mesmo nome instalado durante a enchente).
+Segundo essa linha d’água, no local onde se situava a antiga estação Praça da
+Harmonia, o nível máximo interpolado foi de 4,36 m, ou seja 1,36 m acima do
+cais. No local da Doca 4 (Espigão 3), o valor correspondente pela linha d’água foi
+de 5,24 m, ou seja 2,24 m acima do cais. A diferença, portanto, foi de 58 cm em
+2024 contra 31 cm em 1967, denotando um aumento do desnível para cheias
+maiores.
+       Outros pares de níveis máximos na Praça da Harmonia e Doca 4, além de
+1967 e 2024, estão disponíveis de 1942 a 1966 (Brasil, 1968), podendo-se
+estabelecer com todos uma relação para estender a série da Oti-Engevix na Doca
+4 de 1968 a 1995 (último ano com dados publicados do posto Praça da Harmonia,
+na Ponta da Cadeia). A mesma relação é aplicável para corrigir as cotas de 1899
+a 1928 da OTI-Engevix (BRASIL, 1968) porque presumivelmente a régua da SOP
+até 1928 estava na Ponta da Cadeia e não na Doca 4.
+
+
+                                            25
+       A função que melhor se ajustou para os pares de cotas Praça da
+Harmonia/Ponta da Cadeia e da Doca 4, acima de 1,00 m na Praça da Harmonia,
+foi um polinômio do segundo grau com coeficiente de determinação R2 de 0,9219
+(Figura 10).
+
+
+
+
+  Figura 10. Relação entre níveis máximos anuais da estação 87450003 - Praça da
+         Harmonia e o linígrafo da DNPVN, com inclusão de ponto de 2024.
+
+       Aplicando-se a relação da Figura 10 às cotas medidas na Ponta da Cadeia,
+obtém-se as correspondentes cotas máximas na Doca 4. Desta forma estabelece-
+se uma série homogênea de 1899 a 1995 na Doca 4, lembrando que se está
+trabalhando com o datum que refere o cais na cota 3,00 m. As cotas de 1996 a
+2015 referem-se a um ponto de medição junto ao Prédio Administrativo, distante
+cerca de 740 m a jusante da Doca 4, logo as cotas aí medidas também foram
+convertidas para o local da Doca 4, no caso mediante uma interpolação empírica
+de desníveis inferidos das linhas d’água estimadas das cheias de 1967, 1941 e
+2024. Os níveis máximos de 2016 a 2024 vieram do posto Cais C6 cerca de 170
+m a montante da Doca 4 e para estes foi aplicada uma redução de 1 a 4 cm,
+conforme o nível observado. Na Tabela 3 são apresentados os valores ajustados
+das cotas de enchente.
+       Ratifica-se que a série da Tabela 3 é compatível com a Doca 4, local
+referencial do estudo da OTI-Engevix (BRASIL, 1968), e tem como zero da régua
+três metros abaixo do nível do cais. Ou seja, na Tabela 3, houve inundação
+sempre que a cota máxima superou os 3,00 m, caso de 1928, 1936, 1941,
+2015, 2023 e 2024, ficando próximo do limite em 2015. A inundação de 1873,
+
+
+
+                                      26
+outra que ficou na memória, atingiu 3,60 m segundo OTI-Engevix, mas se foi
+medida na Ponta da Cadeia, na Doca 4 seria de 4,14 m.
+
+
+
+
+                                  27
+    Tabela 3. Cotas máximas anuais do Guaíba no Cais Mauá (Doca 4) - série não
+                          homogênea (referencial Cais).
+  Ano H (m) Ano H (m) Ano H (m) Ano H (m) Ano H (m) Ano                                        H (m)
+ 1899       2,87    1920     1,80    1941     4,75   1962     1,25    1983    2,55    2004      1,55
+ 1900       1,69    1921     1,78    1942     2,33   1963     2,67    1984    2,82    2005      2,08
+ 1901       1,24    1922     1,88    1943     1,60   1964     1,73    1985    2,36    2006      1,37
+ 1902       2,19    1923     1,95    1944     1,90   1965     2,72    1986    1,93    2007      2,47
+ 1903       1,66    1924     1,81    1945     1,26   1966     2,61    1987    2,59    2008      1,82
+ 1904       1,72    1925     1,53    1946     1,55   1967     3,13    1988    2,18    2009      2,25
+ 1905       2,75    1926     2,87    1947     1,67   1968     1,41    1989    2,20    2010      1,62
+ 1906       1,73    1927     1,76    1948     1,68   1969     1,58    1990    2,44    2011      2,05
+ 1907       2,20    1928     3,61    1949     1,71   1970     1,91    1991    1,66    2012      1,66
+ 1908       1,89    1929     2,05    1950     1,91   1971     1,92    1992    2,14    2013      2,26
+ 1909       1,73    1930     2,35    1951     2,10   1972     2,43    1993    2,28    2014      2,13
+ 1910       1,56    1931     1,70    1952     2,06   1973     2,13    1994    2,06    2015      2,99
+ 1911       2,26    1932     1,84    1953     2,52   1974     1,69    1995    2,16    2016      2,70
+ 1912       2,34    1933     1,34    1954     2,91   1975     1,84    1996    1,62    2017      2,61
+ 1913       1,42    1934 1,42 (a) 1955        1,80   1976     2,04    1997    1,97    2018      2,17
+ 1914       2,87    1935     1,64    1956     2,32   1977     2,34    1998    1,98    2019 2,40 (b)
+ 1915       2,11    1936     3,24    1957     2,08   1978     1,42    1999    1,45    2020      2,60
+ 1916       1,98    1937     2,51    1958     2,00   1979     1,86    2000    1,87    2021      1,94
+ 1917       1,24    1938     1,43    1959     1,99   1980     1,78    2001    2,43    2022      2,05
+ 1918       1,70    1939     1,60    1960     1,77   1981     1,74    2002    2,49    2023      3,44
+ 1919       2,43    1940     2,24    1961     2,16   1982     2,17    2003    1,82    2024 5,24 (c)
+(a) Em função da ausência de registro do nível máximo para o ano de 1934, adotou-se, como estimativa, o
+valor correspondente ao quantil inferior de 5% da série, considerando que se tratou de um ano
+hidrologicamente seco.
+(b) Em 2019 houve problemas de aferição do linígrafo, adotou-se a informação apresentada pela Prefeitura
+de Porto Alegre, disponível no link:
+https://www2.portoalegre.rs.gov.br/acessibilidade_smarty/default.php?p_secao=3&projeto_sec=144&pg=
+429&p_reg=179290
+(c) Nível interpolado do nivelamento de Germano et al (2024).
+
+      Para transformar os dados da Tabela 3 (Doca 4) em cotas verdadeiras
+(acima do nível médio do mar, datum Imbituba-SC) deve-se subtrair 34 cm
+(GERMANO et al, 2024). Esta referência de Imbituba é amarrada ao marco
+1788A, cuja cota do seu pino foi atualizada para 3,02 m acima do nível médio
+do mar em Imbituba/SC em 2018 (IBGE, 2018). Anteriormente, a cota desse
+marco era referida como sendo de 2,93 m, nove centímetros mais baixa. Por isso,
+atualmente a cota do Cais Mauá, referida a Imbituba é 2,66 m. A Tabela 4
+apresenta os dados das máximas considerando o datum Imbituba-SC.
+       As cotas da Tabela 3, e as suas versões referentes ao Datum de Imbituba
+somente são válidas, enfatize-se, para a Doca 4, não sendo conversíveis para
+outros pontos mediante constantes (uma exceção seria o local Cais C6, por estar
+próximo). Isto acontece porque a inclinação da linha d’água é variável, sendo
+maior para vazões maiores. A linha d’água é uma medida física que independe
+do zero de qualquer régua.
+
+
+
+
+                                                28
+    Tabela 4. Cotas (m) máximas anuais do Guaíba no Cais Mauá (Doca 4) - série
+                          homogênea (Datum Imbituba).
+  Ano     H (m) Ano         H (m)   Ano    H (m)   Ano    H (m)   Ano    H (m)   Ano    H (m)
+ 1899      2,53   1920       1,46   1941    4,41   1962    0,91   1983    2,21   2004    1,21
+ 1900      1,35   1921       1,44   1942    1,99   1963    2,33   1984    2,48   2005    1,74
+ 1901      0,90   1922       1,54   1943    1,26   1964    1,39   1985    2,02   2006    1,03
+ 1902      1,85   1923       1,61   1944    1,56   1965    2,38   1986    1,59   2007    2,13
+ 1903      1,32   1924       1,47   1945    0,92   1966    2,27   1987    2,25   2008    1,48
+ 1904      1,38   1925       1,19   1946    1,21   1967    2,79   1988    1,84   2009    1,91
+ 1905      2,41   1926       2,53   1947    1,33   1968    1,07   1989    1,86   2010    1,28
+ 1906      1,39   1927       1,42   1948    1,34   1969    1,24   1990    2,10   2011    1,71
+ 1907      1,86   1928       3,27   1949    1,37   1970    1,57   1991    1,32   2012    1,32
+ 1908      1,55   1929       1,71   1950    1,57   1971    1,58   1992    1,80   2013    1,92
+ 1909      1,39   1930       2,01   1951    1,76   1972    2,09   1993    1,94   2014    1,79
+ 1910      1,22   1931       1,36   1952    1,72   1973    1,79   1994    1,72   2015    2,65
+ 1911      1,92   1932       1,50   1953    2,18   1974    1,35   1995    1,82   2016    2,36
+ 1912      2,00   1933       1,00   1954    2,57   1975    1,50   1996    1,28   2017    2,27
+ 1913      1,08   1934       1,08   1955    1,46   1976    1,70   1997    1,63   2018    1,83
+ 1914      2,53   1935       1,30   1956    1,98   1977    2,00   1998    1,64   2019    2,06
+ 1915      1,77   1936       2,90   1957    1,74   1978    1,08   1999    1,11   2020    2,26
+ 1916      1,64   1937       2,17   1958    1,66   1979    1,52   2000    1,53   2021    1,60
+ 1917      0,90   1938       1,09   1959    1,65   1980    1,44   2001    2,09   2022    1,71
+ 1918      1,36   1939       1,26   1960    1,43   1981    1,40   2002    2,15   2023    3,10
+ 1919      2,09   1940       1,90   1961    1,82   1982    1,83   2003    1,48   2024    4,90
+Fonte: elaboração própria, 2025.
+
+       Como o marco IBGE 1788A teve cota corrigida em 2018, mapeamentos
+anteriores de estruturas de Porto Alegre a ele amarradas terão que ser
+compatibilizados com os novos níveis de projeto do SPCC. Recomenda-se a
+instalação de uma sequência de réguas/linígrafos paralelas ao dique de proteção,
+para ter um monitoramento adequado do sistema ao longo do tempo.
+
+
+
+
+                                              29
+5 ANÁLISE ESTATÍSTICA DOS NÍVEIS
+       Neste capítulo são apresentados os resultados da avaliação da
+estacionariedade da série histórica de níveis máximos de água no Guaíba,
+considerando a série homogênea na Doca 4 e datum Imbituba-SC, conforme
+apresentado na Tabela 4 do item 4.3. Devido à ausência de dados entre 1873 e
+1899, foi considerado o período de 1899 a 2024.
+       A análise, realizada em ambiente RStudio, visa identificar a presença de
+tendência temporal na série, com o intuito de verificar a adequação do uso de
+modelos estacionários na estimativa de eventos extremos ou a necessidade de
+aplicação de modelos não-estacionários, considerando os possíveis efeitos de
+mudanças climáticas.
+       A presença de não estacionariedade pode indicar que os pressupostos
+estatísticos de permanência das distribuições de frequência ao longo do tempo
+podem não ser válidos, o que impacta na definição de eventos de projeto, como
+cotas de cheia associadas a diferentes tempos de retorno.
+
+5.1 TESTE DE INDEPENDÊNCIA
+        Antes da análise de tendência, foi realizado o teste de Durbin-Watson, que
+verifica se há alguma dependência entre os erros (ou resíduos) de uma análise
+estatística, especialmente em estudos que envolvem séries temporais, como os
+dados de níveis ou chuvas ao longo do tempo. Em uma análise ideal, os erros
+devem ser aleatórios, ou seja, sem nenhuma ligação entre si. Porém, em muitos
+casos, pode acontecer de os erros de um momento estarem relacionados aos
+erros de momentos anteriores — isso é chamado de autocorrelação.
+         As hipóteses do teste de Durbin-Watson são formuladas da seguinte
+forma:
+   •     Hipótese nula (H0) Pressupõe que os erros são aleatórios. Pressupõe que
+         não há autocorrelação;
+   •     Hipótese alternativa      (H1)    Pressupõe   que   os   resíduos    são
+         autocorrelacionados.
+
+
+      O teste de Durbin-Watson verifica a autocorrelação entre os erros através
+da estatística d, que pode variar de 0 a 4:
+   •     d = 2 indica que não há autocorrelação
+   •     d < 2 indica correlação serial positiva
+   •     d > 2 indica correlação serial negativa.
+
+
+
+                                          30
+       A identificação de autocorrelação positiva (d < 2), especialmente em séries
+temporais hidrológicas, é comum e requer procedimentos de correção antes da
+aplicação de testes de tendência, como o PreWhitening, para garantir validade
+estatística nas análises subsequentes.
+        Para o conjunto de dados do presente estudo, a estatística obtida foi d =
+1,508, indicando autocorrelação positiva. O p-valor associado foi de 0,00203, o
+que confirma estatisticamente a existência de autocorrelação. Em função desse
+resultado, aplicou-se a técnica de PreWhitening para remoção da autocorrelação
+antes da avaliação de tendências. Isso foi necessário uma vez que: (i) a presença
+de autocorrelação serial pode levar à superestimativa da significância estatística;
+e (ii) a aplicação do teste de Mann-Kendall na avaliação de tendências requer
+independência da série.
+       Na aplicação da técnica de PreWhitening foi ajustado um modelo
+autoregressivo do tipo AR(1), ou seja, de ordem 1, que considera um valor
+anterior da série para prever o valor atual. Após o ajuste do AR(1) foram extraídos
+os resíduos do modelo, definidos como a diferença entre os valores observados
+e os valores estimados pelo modelo ajustado. Estes resíduos representam a
+componente não explicada da série temporal — ou seja, a parte da variação que
+não pode ser atribuída à autocorrelação. Esses resíduos são então utilizados
+como nova série para os testes de tendência (como Mann-Kendall), pois já não
+apresentam estrutura serial e, portanto, atendem ao pressuposto de
+independência temporal exigido por esses testes.
+       Para a verificação da remoção da autocorrelação a partir do modelo do
+tipo AR(1), aplicou-se o Teste de Ljung-Box. O teste de Ljung-Box foi aplicado
+aos resíduos com defasagens de 1 a 5. Esse teste verifica se há autocorrelação
+globalmente significativa nos resíduos para um conjunto de defasagens. As
+hipóteses do teste de Ljung-Box são formuladas da seguinte forma:
+   •   Hipótese nula - H0 (p ≥ 0,05): os dados são independentes ao longo do
+       tempo;
+   •   Hipótese alternativa - H1 (p < 0,05): existe autocorrelação significativa na
+       série (ou nos resíduos) em pelo menos um dos lags testados.
+        Os resultados para o teste de Ljung-Box indicaram resultados de p-valores
+superiores a 0,05, o que confirma a ausência de autocorrelação serial
+significativa.
+
+5.2 TESTES DE TENDÊNCIA
+       O teste de Mann-Kendall é um teste estatístico não paramétrico
+amplamente utilizado na análise de séries temporais. Ele é particularmente
+indicado quando se deseja verificar a existência de tendências (crescentes ou
+
+                                       31
+decrescentes) em séries históricas sem fazer suposições sobre a distribuição dos
+dados (como normalidade), tornando-o robusto para dados com distribuições
+assimétricas ou com outliers.
+       Esse teste avalia se existe uma tendência monotônica (ou seja,
+consistentemente crescente ou decrescente) ao longo do tempo, e se essa
+tendência é estatisticamente significativa. O teste baseia-se em comparações
+entre todos os pares possíveis de valores da série, contabilizando o número de
+pares crescentes e decrescentes para calcular um indicador de tendência.
+       O teste parte das seguintes hipóteses:
+   •   H0 (hipótese nula): Não existe tendência significativa na série temporal (a
+       variação observada pode ser atribuída à aleatoriedade);
+   •   H1 (hipótese alternativa): Existe uma tendência monotônica significativa
+       ao longo do tempo.
+
+
+       A significância do teste é avaliada pelo valor de p (p-valor):
+   •   Se p ≥ 0,05, não há evidência estatística suficiente para rejeitar H0 → a
+       tendência não é significativa;
+   •   Se p < 0,05, rejeita-se H0 → há uma tendência estatisticamente
+       significativa.
+
+
+       Além disso, o teste fornece o coeficiente Tau de Kendall (τ), que mede a
+direção e intensidade da tendência:
+   •   τ > 0: tendência crescente;
+   •   τ < 0: tendência decrescente;
+   •   τ = 0: ausência de tendência.
+
+
+       O valor de τ varia de -1 a +1, sendo que valores próximos aos extremos
+indicam tendências mais fortes. Conforme explicado no item anterior, foi aplicada
+a técnica de PreWhitening para remoção da autocorrelação da série. Desta forma,
+aplicou-se o teste de Mann-Kendall aos resíduos do modelo AR(1), que mantém
+a mesma tendência da série de níveis máximos anuais, mas remove a
+dependência temporal. Abaixo são apresentados os resultados obtidos:
+   •   Tau de Kendall (τ) = 0,1518, indicando a presença de uma tendência
+       positiva (aumento dos níveis ao longo do tempo);
+
+
+
+                                       32
+   •   p-valor = 0,0111, indicando que essa tendência é estatisticamente
+       significativa, ou seja, dificilmente ocorreu por acaso.
+      Aplicando-se o teste de Mann-Kendall à série original de níveis máximos
+anuais, sem remoção da autocorrelação, os resultados obtidos foram:
+   •   Tau de Kendall (τ) = 0,1470;
+   •   p-valor = 0,01470.
+       Os resultados obtidos para o teste aplicado a série original são
+praticamente idênticos aos obtidos nos resíduos do AR(1). Isso indica que,
+embora a série original apresentasse autocorrelação positiva (confirmada
+anteriormente), ela não influenciou substancialmente o resultado do teste neste
+caso específico. Entretanto, por rigor estatístico, a versão com PreWhitening
+continua sendo a mais recomendada para garantir validade formal dos testes.
+      Esses resultados, aliados à análise da série histórica e de eventos recentes
+(como a cheia de 2024), reforçam a hipótese de que o comportamento do nível
+do Guaíba está se modificando com o tempo, possivelmente em decorrência de
+mudanças climáticas ou alterações no regime hidrológico da bacia.
+       O estimador de Theil-Sen é uma técnica estatística robusta utilizada para
+calcular a inclinação (ou taxa de variação) de uma tendência em séries temporais.
+Diferente do ajuste por regressão linear comum, o método de Theil-Sen não é
+sensível a outliers e não requer que os resíduos tenham distribuição normal, o
+que o torna especialmente útil em análises hidrológicas, onde os dados
+frequentemente apresentam dispersão ou valores extremos.
+      Esse método estima a inclinação mediana de todas as possíveis retas que
+conectam pares de pontos distintos da série. Ou seja, para cada par de
+observações, calcula-se a inclinação da reta entre esses dois pontos, e a mediana
+de todas essas inclinações é tomada como a estimativa final. Isso assegura que
+a tendência estimada seja menos influenciada por valores atípicos do que em
+métodos tradicionais.
+       A inclinação estimada representa o ritmo de mudança anual do fenômeno
+analisado – neste caso, os níveis máximos anuais do Guaíba. Se a inclinação for
+positiva, isso indica uma tendência de elevação ao longo do tempo; se negativa,
+uma tendência de redução. Obteve-se o resultado de inclinação 0,00294 m, ou
+seja, variação média de 0,29 cm por ano. O p-valor é de 0,0117, indicando
+tendência crescente e significante estatisticamente.
+
+
+
+
+                                      33
+             Figura 11. Gráfico do teste não paramétrico Mann-Kendall.
+
+       Essa tendência é coerente com os resultados do teste de Mann-Kendall,
+que indicaram uma tendência positiva significativa. Portanto, ambos os testes,
+aplicados de forma complementar, reforçam o diagnóstico de que há um padrão
+crescente nos níveis extremos do Guaíba nas últimas décadas.
+
+5.3 DETERMINAÇÃO DA CURVA DE PROBABILIDADE NÍVEIS
+       MÁXIMOS: DISTRIBUIÇÃO ESTACIONÁRIA
+       As distribuições de extremos foram ajustadas inicialmente de forma
+estacionária utilizando as distribuições GEV (Generalized Extreme Value) e
+Gumbel, via método da Máxima Verossimilhança.
+       A distribuição GEV (Generalized Extreme Value) é amplamente utilizada na
+análise de eventos extremos, e combina três tipos de distribuições extremas
+(Gumbel, Fréchet e Weibull) em um único modelo, sendo especialmente útil para
+descrever os valores máximos de séries temporais.
+       Nesta etapa, aplicou-se a GEV com parâmetros constantes ao longo do
+tempo, ou seja, os parâmetros locação (location), escala (scale) e forma (shape)
+foram estimados como fixos para toda a série de dados. Essa abordagem
+pressupõe que o processo que gera os eventos extremos é estacionário, ou seja,
+suas características estatísticas não mudam com o tempo. Parâmetros estimados:
+   •    Location (μ) = 1,4961 m. Esse parâmetro representa a posição média da
+        distribuição e, em termos práticos, está associado ao nível típico dos
+        eventos extremos (neste caso, níveis máximos do Guaíba);
+
+
+
+                                       34
+   •   Scale (σ) = 0,40697 m. A escala indica a dispersão dos dados em torno
+       do valor de locação. Quanto maior o valor, maior a variabilidade dos
+       extremos;
+   •   Shape (ξ) = 0,0719. O valor positivo estimado para ξ sugere uma
+       distribuição com cauda pesada, o que implica potencial para eventos
+       extremos mais severos, mesmo que raros. Sendo:
+          o ξ > 0 indica cauda pesada (tipo Fréchet), o que significa maior
+            probabilidade de ocorrência de eventos extremamente altos;
+          o ξ = 0 corresponde à distribuição de Gumbel, com cauda
+            exponencial;
+          o ξ < 0 indica cauda limitada (tipo Weibull), com limite superior finito.
+
+
+       A avaliação do ajuste foi realizada com AIC (Akaike Information Criterion),
+que é uma medida de qualidade do ajuste do modelo, penalizando a
+complexidade excessiva (vinculado à parcimônia). Ele é usado principalmente
+para comparar diferentes modelos, sendo que valores menores indicam melhor
+ajuste relativo. Neste caso, o modelo GEV com parâmetros constantes apresenta
+um AIC de 186,35, servindo como referência base para comparação com modelos
+não estacionários (em que os parâmetros variam com o tempo).
+       A distribuição de Gumbel, conforme mencionado, é um caso particular da
+família GEV, obtida quando o parâmetro de forma (ξ) da GEV é igual a zero. Ela
+é amplamente utilizada na hidrologia para modelar valores extremos,
+especialmente níveis máximos anuais, devido à sua simplicidade e à longa
+tradição de uso em estudos de cheia e dimensionamento de obras hidráulicas.
+       Neste estudo, aplicou-se a distribuição de Gumbel em sua forma
+estacionária, ou seja, com os parâmetros de locação e escala constantes ao longo
+do tempo. Isso implica a suposição de que as características estatísticas da série
+de máximos anuais do Guaíba permaneceram inalteradas durante todo o período
+de observação, e que não há influência significativa de mudanças climáticas ou
+antrópicas sobre a frequência e magnitude dos eventos extremos ao longo dos
+anos. Foram estimados os seguintes parâmetros:
+   •   Location (μ)= 1,5127;
+   •   Scale (β)= 0,41798;
+   •   AIC= 186,09.
+      Os parâmetros estimados foram bastante próximos, indicando que ambos
+os modelos apresentam desempenhos estatísticos similares no ajuste à série de
+dados analisada.
+
+
+                                      35
+5.3.1 TESTE DE KOLMOGOROV SMIRNOV
+        O teste de Kolmogorov-Smirnov é uma ferramenta estatística utilizada
+para avaliar se uma amostra de dados segue determinada distribuição de
+probabilidade. No contexto deste relatório, o objetivo do teste é verificar a
+aderência da série anual de valores máximos normalizados à distribuição GEV e
+à distribuição Gumbel, ambas em sua forma estacionária. As hipóteses do teste
+são:
+   •   Hipótese nula (H₀): A amostra analisada segue a distribuição teórica
+       considerada (GEV ou Gumbel). Ou seja, não há evidência estatística de
+       que a amostra se desvie da distribuição especificada. (Aceita-se H₀ se o
+       p-valor ≥ 0,05);
+   •   Hipótese alternativa (H₁): A amostra não segue a distribuição teórica
+       considerada. (Rejeita-se H₀ se o p-valor < 0,05).
+
+
+       Obteve-se o p-valor = 0,996 para a GEV estacionária, que indica aderência
+da amostra à distribuição GEV. Para Gumbel estacionária o resultou em p-valor
+= 0,9998 e, assim como no caso da GEV, o resultado demonstra que a
+distribuição também se ajusta aos dados observados, com um p-valor ainda mais
+alto. Isso sugere que Gumbel, embora seja um caso particular da GEV, é
+estatisticamente tão adequada quanto para representar os dados da série.
+      Destaca-se que o teste de Kolmogorov-Smirnov (K-S) é mais sensível a
+desvios em torno do centro das distribuições do que nas extremidades (caudas).
+Ademais, os valores de p obtidos por esse teste podem se tornar não confiáveis
+quando os parâmetros da distribuição são estimados a partir da própria amostra.
+
+5.3.2 AVALIAÇÃO DO GRAU DE ADERÊNCIA
+       O QQ Plot (Quantile-Quantile Plot) é uma ferramenta gráfica utilizada para
+avaliar o grau de aderência de uma amostra de dados a uma distribuição teórica.
+No caso deste estudo, o QQ Plot foi utilizado para comparar os quantis empíricos
+(observados na série de dados) com os quantis teóricos das distribuições GEV e
+Gumbel, ambas estacionárias.
+      Os pontos do QQ Plot comparam diretamente os quantis empíricos (no
+eixo Y) com os quantis teóricos (no eixo X). Se os pontos se alinharem
+aproximadamente sobre uma linha reta de 45°, significa que a distribuição teórica
+é adequada para modelar os dados.
+       Obteve-se o coeficiente de determinação R² = 0,957 que indica um
+excelente ajuste entre os quantis empíricos e teóricos da distribuição GEV. O R²
+próximo de 1 significa que a maior parte da variabilidade dos dados é explicada
+pela distribuição GEV. Os pontos do gráfico QQ Plot apresentam boa aderência à
+
+                                      36
+linha de tendência, o que sugere que o modelo é confiável para representar os
+dados observados, conforme ilustrado na Figura 12 e na Figura 13. Contudo,
+observa-se que as cheias extremas podem pertencer a uma população de
+outliers, o que limita a capacidade do modelo de representá-las adequadamente.
+
+
+
+
+                Figura 12. Gráfico QQ Plot para distribuição GEV.
+
+
+
+
+              Figura 13. Gráfico QQ Plot para distribuição Gumbel.
+
+      Para a Gumbel estacionária, o coeficiente de determinação resultou em
+R² = 0,939, que é um bom desempenho, apesar de ser levemente inferior ao da
+GEV, o valor indica uma correspondência sólida entre os dados e a distribuição
+
+                                      37
+ajustada. Isso sugere que a Gumbel pode ser considerada uma alternativa
+estatisticamente adequada, com a vantagem de possuir um modelo mais simples
+(menor número de parâmetros).
+
+5.3.3 TEMPOS DE RETORNO
+       O tempo de retorno é uma medida estatística utilizada para expressar a
+frequência com que determinado evento extremo, como uma precipitação
+elevada ou cota hidrométrica extrema, pode ser esperado. Ele representa, por
+exemplo, o valor que tem 1% de chance de ser excedido em um dado ano (tempo
+de retorno de 100 anos).
+       Neste estudo, foram calculadas as cotas associadas a diferentes tempos
+de retorno com base nos parâmetros das distribuições GEV (Generalized Extreme
+Value) e Gumbel, conforme ajustadas à série histórica de máximas anuais.
+       Para cada tempo de retorno analisado (2, 5, 10, 20, 25, 50, 100, 200, 500
+e 1000 anos), foram calculados os intervalos de confiança de 95%, indicando a
+faixa na qual o valor estimado pode variar com alta confiabilidade estatística.
+Essa análise considera a incerteza na estimação dos parâmetros da distribuição.
+Na Tabela 5 são apresentados os valores estimados para elevação do Guaíba.
+       O método utilizado para essa estimativa foi o método Normal, no qual
+assume-se a normalidade assintótica dos parâmetros e os erros-padrão dos níveis
+estimados são obtidos por aproximação de primeira ordem via método delta. Essa
+técnica é amplamente empregada em estatística para a propagação de
+incertezas. Utiliza-se os valores da matriz de covariância dos parâmetros
+estimados e deriva uma aproximação dos limites inferior e superior do intervalo
+de confiança.
+
+  Tabela 5. Resultados dos tempos de retorno – distribuição estacionária. Valores
+                                 arredondados.
+                                     Elevação nível d’água (m)
+              Tempo de retorno
+                                       GEV               Gumbel
+                       2                1,65              1,67
+                       5                2,14              2,14
+                      10                2,49              2,45
+                      20                2,84              2,75
+                      25                2,96              2,85
+                      50                3,33              3,14
+                     100                3,71              3,44
+                     200                4,12              3,73
+                     500                4,68              4,11
+                    1000                5,14              4,40
+
+
+
+
+                                       38
+5.4 DETERMINAÇÃO DA CURVA DE PROBABILIDADE DE NÍVEIS
+      MÁXIMOS: DISTRIBUIÇÃO NÃO-ESTACIONÁRIA
+       Nesta seção, é apresentada a análise da distribuição de valores extremos
+sob o enfoque da não-estacionariedade, ou seja, considerando que os
+parâmetros estatísticos da distribuição variem ao longo do tempo. Essa
+abordagem é particularmente relevante diante de possíveis efeitos das mudanças
+climáticas, urbanização acelerada e alterações de uso do solo na bacia
+hidrográfica, que podem provocar mudanças sistemáticas no regime hidrológico.
+       Foram considerados os modelos GEV e Gumbel, com diferentes níveis de
+complexidade. A variação entre os modelos se dá pela introdução de dependência
+temporal em um ou mais parâmetros da distribuição – em geral, nos parâmetros
+de posição (location) e de escala (scale). O parâmetro de forma (shape) foi
+mantido constante, por ser mais sensível a variações e menos estável
+estatisticamente quando ajustado com dependência temporal.
+Abaixo, estão descritos os modelos testados, com base no número de parâmetros (K) e na forma funcional
+dos seus componentes apresentados na Tabela 6 e K: número de parâmetros; LOC: parâmetro de posição
+da distribuição; SCALE: parâmetro de escala; SHAPE: parâmetro de forma.
+
+           Tabela 7.
+
+                             Tabela 6. Parâmetros para os modelos GEV.
+ Modelo       K         LOC              SCALE          SHAPE                     OBS
+ GEV-I        3          µ                 β              Ɣ     Modelo estacionário (calculado na Seção 4)
+ GEV-II       4    µ0+ µ1*t                β              Ɣ         LOC com variação linear no tempo
+ GEV-III      5    µ0+ µ1*t           β0+ β1*t            Ɣ     LOC e SCALE com tendência linear no tempo
+ GEV-IV       5    µ0+ µ1*t          e^(β0+ β1*t)         Ɣ          SCALE com variação exponencial
+ GEV-V        4          µ            β0+ β1*t            Ɣ  Apenas SCALE com variação linear no tempo
+                                                             Apenas SCALE com variação exponencial no
+ GEV-VI      4        µ        e^(β0+ β1*t)        Ɣ
+                                                                               tempo
+K: número de parâmetros; LOC: parâmetro de posição da distribuição; SCALE: parâmetro de escala; SHAPE:
+parâmetro de forma.
+
+                        Tabela 7. Parâmetros para os modelos Gumbel.
+     Modelo        K            LOC              SCALE                            OBS
+ GUMBEL-I           2            µ                  β           Modelo estacionário (calculado na Seção 4)
+ GUMBEL-II          3         µ0+ µ1*t              β               LOC com variação linear no tempo
+ GUMBEL-III         4         µ0+ µ1*t           β0+ β1*t       LOC e SCALE com tendência linear no tempo
+ GUMBEL-IV          4         µ0+ µ1*t         e^(β0+ β1*t)          SCALE com variação exponencial
+ GUMBEL-V           3            µ               β0+ β1*t    Apenas SCALE com variação linear no tempo
+                                                             Apenas SCALE com variação exponencial no
+ GUMBEL-VI          3        µ          e^(β0+ β1*t)
+                                                                               tempo
+K: número de parâmetros; LOC: parâmetro de posição da distribuição; SCALE: parâmetro de escala; SHAPE:
+parâmetro de forma.
+
+
+
+
+                                                    39
+5.4.1 SELEÇÃO DO MODELO
+       Para selecionar o modelo mais adequado entre as diferentes alternativas
+de distribuições testadas, foi utilizado o Critério de Informação de Akaike com
+correção para pequenas amostras (AICc), uma métrica amplamente aplicada na
+comparação entre modelos estatísticos. O AIC baseia-se no valor da log-
+verossimilhança (logL) ajustado pelo número de parâmetros (k) do modelo,
+penalizando modelos excessivamente complexos para evitar sobreajuste.
+      Entretanto, quando a razão entre o tamanho da amostra (n) e o número
+de parâmetros (k) é inferior a 40, o uso do AIC tradicional pode levar a conclusões
+enviesadas. Por esse motivo, adotou-se o AIC corrigido (AICc) em todos os
+modelos, independentemente da razão n/k, como forma de garantir consistência
+e reduzir a incerteza associada à seleção de modelos com diferentes níveis de
+complexidade.
+      Após o cálculo do AICc para cada modelo, os valores foram normalizados
+em relação ao menor AICc identificado, gerando o parâmetro Δ𝑖 (delta-i), que
+representa a diferença entre o AICc de cada modelo e o menor AICc obtido.
+Conforme recomendação de Burnham e Anderson (2004), o modelo com Δ𝑖 = 0
+é considerado o melhor, enquanto os modelos com Δ𝑖 ≤ 2 são considerados
+igualmente plausíveis e com bom ajuste.
+        Para os casos em que o modelo não-estacionário apresentou melhor
+desempenho segundo o AICc, aplicou-se o Teste de Razão de Verossimilhanças
+(Teste-RV), com o objetivo de avaliar estatisticamente se a melhoria no ajuste
+justifica a adoção de maior complexidade no modelo. O Teste-RV compara o
+ajuste de dois modelos de GEV/GUMBEL (um estacionário e um não-
+estacionário), aproximando-os à distribuição Qui-Quadrado (X²).
+       O valor calculado segue uma distribuição Qui-quadrado (X²), com graus
+de liberdade iguais à diferença entre o número de parâmetros dos modelos
+comparados. A significância estatística do modelo mais complexo é avaliada por
+meio do p-valor, adotando-se um nível de confiança de 95% (isto é, p-valor <
+0,05 indica que o modelo não-estacionário é significativamente melhor). Os
+resultados são apresentados na Tabela 8 e na Tabela 9.
+
+                      Tabela 8. Parâmetros para modelo GEV.
+    Distribuição             AICc                 ∆𝑖                 p-valor
+        GEV-I               186,55               4,47                   -
+       GEV-II               182,08               0,00                 0,01
+       GEV-III              184,13               2,05                 0,03
+       GEV-IV               184,13               2,04                 0,03
+       GEV-V                188,45               6,37                 0,63
+       GEV-VI               188,43               6,35                 0,62
+
+                    Tabela 9. Parâmetros para modelo Gumbel.
+
+
+                                       40
+    Distribuição               AICc                   ∆𝑖              p-valor
+      GUMBEL-I                186,19                 4,07                -
+     GUMBEL-II                182,12                 0,00              0,01
+     GUMBEL-III               184,11                 1,99              0,04
+     GUMBEL-IV                184,10                 1,98              0,04
+     GUMBEL-V                 188,28                 6,16              0,93
+     GUMBEL-VI                188,28                 6,16              0,93
+
+       Para ambos os tipos de distribuição, GEV e Gumbel, o modelo Tipo II (com
+parâmetro de localização variável no tempo) apresentou o menor valor de AICc,
+sendo AICc = 182,08 para GEV-II e AICc = 182,12 para Gumbel-II. Esse valor é
+a referência base para o cálculo dos valores Δi (Delta), utilizados na hierarquia
+de comparação dos modelos.
+      Em relação aos demais, os modelos GEV-III, GEV-IV, GUMBEL-III e
+GUMBEL-IV também apresentaram Δ𝑖 ≤ 2, o que indica que são estatisticamente
+comparáveis ao modelo GEV-II, segundo a literatura de Burnham e Anderson
+(2004). Modelos como GEV-V, GEV-VI, GUMBEL-V e GUMBEL-VI, com valores
+Δi>6, são significativamente piores.
+       O p-valor do Teste-VR para os modelos do tipo II em ambas as
+distribuições foi igual a 0,01. Esses valores são menores que 0,05, indicando que
+os modelos não-estacionários apresentam um ajuste estatisticamente superior
+aos seus equivalentes estacionários. Ou seja, a inclusão da tendência temporal
+no parâmetro de localização é justificada. Na tabela 9 são apresentados os
+parâmetros.
+                     Tabela 10. Modelos GEV-II e GUMBEL-II
+
+      Modelo                         Loc                     Scale       Shape
+ GEV-II                      1,3389+2,5399 x10-³ t          0,3944       0,0805
+ GUMBEL-II                   1,3524+2,6105x10-³ t           0,40655         -
+
+       Para garantia dos resultados, avaliou-se a significância do valor de μ₁ do
+parâmetro de localização, que representa a taxa de variação no tempo da posição
+da distribuição (ou seja, se os extremos aumentam ou diminuem com o tempo),
+a partir do Z-score. A tabela apresenta os resultados.
+                    Tabela 11. Resultados a partir do Z-score.
+
+  Modelo           μ₁             Erro-padrão        Z= μ₁/erro       p-valor
+  GEV-II       2,5927x10-3         0,9750x10-3          2,62          0,0086
+ GUMBEL-II     2,6554x10-3         1,0419x10-3          2,55          0,0110
+
+       Ambos os valores são inferiores ao limiar de 5% (p < 0,05), indicando que
+o coeficiente de tendência é estatisticamente diferente de zero. Logo, existe uma
+tendência crescente ao longo do tempo nos eventos extremos analisados.
+
+
+
+
+                                          41
+5.4.2 AVALIAÇÃO DO GRAU DE ADERÊNCIA
+       Aplicou-se, ainda o gráfico QQPlot, que avalia a aderência entre os dados
+empíricos e os valores teóricos estimados por um modelo de distribuição
+estatística. Na Figura 14 e Figura 15 podem ser observados os resultados.
+Obteve-se R² = 0,974 para GEV-II e R² = 0,938 para GUMBEL-II. Os valores
+obtidos confirmam que ambos os modelos apresentam bom ajuste aos dados,
+sendo que o modelo GEV-II teve desempenho superior.
+       Por fim, foi aplicado o Teste-VR para GEV-II e GUMBEL-II, resultando em
+p-valor = 0,14. Isto indica que GUMBEL já tende a explicar os dados, e o GEV,
+embora seja aderente, não é estatisticamente superior.
+
+
+
+
+                     Figura 14. Gráfico QQPlot para GEV-II.
+
+
+
+
+                                     42
+                    Figura 15. Gráfico QQPlot para Gumbel-II.
+
+5.4.3 TEMPOS DE RETORNO
+       Com base nos modelos estatísticos ajustados (GEV e Gumbel), foi possível
+estimar o tempo de retorno correspondente à elevação observada em cada um
+dos 126 anos da série histórica. Isso significa que, para cada ano, o nível máximo
+registrado do Guaíba foi comparado às distribuições ajustadas, e a partir disso
+foi determinado o tempo de retorno estimado — ou seja, a frequência esperada
+para que uma elevação igual ou superior àquela ocorra. Assim, valores mais
+elevados de nível d'água tendem a corresponder a tempos de retorno mais longos
+(eventos mais raros), enquanto valores mais baixos estão associados a tempos
+de retorno mais curtos (eventos mais frequentes). Essa abordagem permite
+avaliar, ano a ano, a raridade dos eventos registrados. Na Figura 16 apresenta-
+se os resultados para Gumbel II e na Figura 17 para GEV II. A Tabela 12
+apresenta um resumo dos resultados para os anos de 1899, 1941, 1982 e 2024,
+enquanto o detalhamento consta no APÊNDICE A.
+       A interpretação prática dos resultados mostra que eventos com mesma
+probabilidade de ocorrência passaram a representar cotas mais altas em anos
+recentes do que representavam no passado, indicando a necessidade de
+reavaliação de critérios de projeto e do dimensionamento de estruturas de
+proteção, como diques e EBAPs.
+       Além disso, observa-se que, quanto maior o tempo de retorno, maior as
+diferenças entre os modelos. Por exemplo, para o tempo de retorno de 2 anos,
+no ano 126 (isto é, 2024), o valor estimado com GEV é de 1,81 m, enquanto para
+Gumbel fica em 1,83 m, já para tempo de retorno de 100 anos, ocorre maior
+
+                                      43
+discrepância, sendo de 3,85 m e 3,55 m, respectivamente. Esse comportamento
+ocorre devido às características distintas das distribuições.
+       A distribuição GEV possui o parâmetro adicional shape (forma), que
+controla o comportamento da cauda da distribuição. Isso permite que a GEV
+represente diferentes comportamentos extremos — como caudas mais pesadas
+ou mais leves — dependendo da série analisada. Na distribuição Gumbel o shape
+igual a zero, ou seja, ela assume cauda exponencial decrescente, o que limita
+sua capacidade de capturar valores extremos mais severos.
+
+   Tabela 12. Resultados dos tempos de retorno – distribuição não estacionária.
+                              Valores arredondados.
+                                               Elevação nível d’água (m)
+     Ano         Tempo de retorno
+                                              GEV                  Gumbel
+    1899                 2                    1,49                   1,50
+    1899                25                    2,78                   2,66
+    1899                50                    3,15                   2,94
+    1899                100                   3,54                   3,23
+    1899                200                   3,95                   3,51
+    1899               1000                   4,98                   4,16
+    1941                 2                    1,59                   1,61
+    1941                25                    2,89                   2,77
+    1941                50                    3,26                   3,05
+    1941                100                   3,64                   3,33
+    1941                200                   4,05                   3,62
+    1941               1000                   5,09                   4,27
+    1982                 2                    1,70                   1,72
+    1982                25                    2,99                   2,87
+    1982                50                    3,36                   3,16
+    1982                100                   3,75                   3,44
+    1982                200                   4,16                   3,72
+    1982               1000                   5,20                   4,38
+    2024                 2                    1,81                   1,83
+    2024                25                    3,10                   2,98
+    2024                50                    3,47                   3,27
+    2024                100                   3,85                   3,55
+    2024                200                   4,26                   3,83
+    2024               1000                   5,30                   4,49
+
+
+
+
+                                      44
+                                        Tempos de retorno - Gumbel
+               5,0
+               4,5
+               4,0
+               3,5
+Elevação (m)
+
+
+
+
+               3,0
+               2,5
+               2,0
+               1,5
+               1,0
+               0,5
+               0,0
+                  1899            1924             1949               1974             1999          2024
+                                                              Anos
+
+                TR 2     TR 5   TR 10    TR 20   TR 25    TR 50      TR 100   TR 200   TR 500   TR 1000
+
+
+   Figura 16. Tempos de retorno da elevação do Guaíba - obtidos com Gumbel II.
+
+
+
+
+                                         Tempos de retorno - GEV
+               6,0
+
+
+               5,0
+
+
+               4,0
+Elevação (m)
+
+
+
+
+               3,0
+
+
+               2,0
+
+
+               1,0
+
+
+               0,0
+                  1899            1924             1949               1974             1999          2024
+                                                              Anos
+
+                TR 2     TR 5   TR 10    TR 20   TR 25    TR 50      TR 100   TR 200   TR 500   TR 1000
+
+
+               Figura 17. Tempos de retorno da elevação do Guaíba - obtidos com GEV II.
+
+
+
+
+                                                         45
+6 EVENTOS DE 1941 E 2024
+      Os eventos de inundação de Porto Alegre ao longo dos anos refletem a
+vulnerabilidade da cidade às chuvas intensas e à elevação dos níveis dos rios da
+região hidrográfica do Lago Guaíba. Entre os eventos mais impactantes,
+destacam-se os ocorridos em 1941 e 2024.
+      A inundação histórica de 1941, em que o nível do Guaíba alcançou a cota
+de 4,75 m medido na régua linimétrica do Departamento Nacional de Portos e
+Vias Navegáveis (DPVN), localizada na Doca 4 do cais (Brasil, 1968a), havia sido,
+até então, o evento com maiores proporções.
+       Mais recentemente, em maio de 2024, o nível do Guaíba alcançou 5,24 m
+no local da Doca 4, isto é, 2,24 m acima do piso do cais, no dia 05/05/2024. Este
+valor, apresentado anteriormente na Tabela 3, resulta do nível interpolado do
+nivelamento de Germano et al (2024), já que a régua desta estação ficou
+submersa em 03/05/2024.
+       Neste capítulo são apresentados dados relativos ao evento de 2024,
+incluindo a reconstituição dos níveis do hidrograma para a Doca 4 (Cais C6) e a
+comparação com o evento de 1941.
+
+6.1 DADOS DOS EVENTOS
+       Os dados de chuvas do evento de 2024 foram extraídos de nove estações
+telemétricas da Agência Nacional de Águas, localizadas em municípios distintos
+que estão inseridos na Região Hidrográfica do Guaíba. As estações foram
+selecionadas através da plataforma da ANA Hidroweb, sendo selecionados os
+postos com dados de 2024, especialmente durante o extremo climático.
+        Para a caracterização do regime pluviométrico na bacia de interesse, foi
+utilizada a metodologia de polígonos de Thiessen, permitindo a determinação das
+precipitações médias diárias. O método consiste na média ponderada das
+precipitações, com atribuição de pesos proporcionais às áreas de influência de
+cada posto sobre a bacia. As áreas de influência dos postos selecionados constam
+na Tabela 13, assim como o percentual de representatividade, considerando a
+metodologia mencionada.
+
+             Tabela 13. Estações telemétricas da ANA com dados de 2024.
+                          Área de      Área de
+                                                   Latitude     Longitude
+  Estação     Código     influência   influência                             Município
+                                                     (°)           (°)
+                           (km²)         (%)
+                                                                              Campo
+ Campo Bom    87380000    2.614,53     18,69%      29º41’30”S   51º02’45”O
+                                                                               Bom
+   Dona                                                                        Dona
+              85400000   12.864,83     21,02%      26º37’44”S   53º21’10”O
+ Francisca                                                                   Francisca
+ Encantado    86720000    3.355,93      4,87%      29º14’03”S   51º51’17”O   Encantado
+  Muçum       86510000   14.468,05      9,83%      29º10’01”S   51º52’06”O    Muçum
+
+
+
+                                        46
+                         Área de      Área de
+                                                  Latitude     Longitude
+  Estação    Código     influência   influência                             Município
+                                                    (°)           (°)
+                          (km²)         (%)
+   Nova                                                                     Caxias do
+             87160000    9.042,17     14,44%      29º20’08”S   51º11’19”O
+  Palmira                                                                      Sul
+ Passo São                                                                  Cachoeira
+             85642000    6.764,04     13,13%      30º00’28”S   53º00’55”O
+ Lourenço                                                                    do Sul
+   Passo
+             86160000    8.097,71      2,46%      28º52’04”S   50º27’21”O   Jaquirana
+  Tainhas
+ Rio Pardo   85900000    9.940,83      3,80%      29°59′42″S   52°22′33″O   Rio Pardo
+    São                                                                        São
+             87382000    1.693,05     11,76%      29°45′32″S   51°8′52″O
+ Leopoldo                                                                   Leopoldo
+
+          O monitoramento realizado por essas estações permite o
+acompanhamento contínuo das condições hidrológicas da bacia, em especial no
+período em que ocorreu o extremo climático que afetou a região em questão. A
+seguir, a Figura 18 apresenta as estações telemétricas que foram consideradas
+para o estudo na Região Hidrográfica do Guaíba.
+
+
+
+
+   Figura 18. Localização das estações telemétricas consideradas para o estudo
+                  localizadas na Região Hidrográfica do Guaíba.
+
+      Em relação aos dados de nível do Guaíba, foi considerado o
+monitoramento da estação Cais Mauá – C6 (87450004) do dia 03/04/2024, até
+03/05/2024, momento em que o nível passou a ser monitorado na Usina do
+Gasômetro (87444000), a partir das 15h.
+
+
+
+
+                                       47
+6.2 RECONSTITUIÇÃO DOS NÍVEIS DO HIDROGRAMA DE CHEIA DE
+     2024 NO POSTO CAIS C6
+        O posto linigráfico Cais Mauá C6 (código 87450004) foi historicamente
+utilizado como referência para o monitoramento dos níveis d’água em Porto
+Alegre. No entanto, em 3 de maio de 2024, quando a inundação do Guaíba
+ultrapassou o Cais Mauá, o linígrafo tornou-se inoperante. Em razão disso, as
+autoridades precisaram instalar emergencialmente um novo equipamento em
+uma área não atingida pela inundação em níveis elevados. O local escolhido foi
+o cais da Usina do Gasômetro, correspondente ao posto de mesmo nome e código
+87444000.
+        Destaca-se que o zero da régua linimétrica do posto Cais Mauá C6 estava
+localizado três metros abaixo da cobertina do Cais Mauá. Assim, os
+registros indicariam nível d’água de 3,00 m quando o nível do Guaíba atingisse a
+cota do piso do cais. Já no posto Usina do Gasômetro (código 87444000), o zero
+da régua possui referência distinta daquela adotada no posto Cais Mauá C6.
+Como não existiam registros concomitantes entre os dois postos até então,
+qualquer tentativa de relacionar os níveis medidos no Cais Mauá C6 aos
+registrados na Usina do Gasômetro poderia resultar em erros significativos,
+comprometendo a reconstituição dos níveis da cheia de 2024 no Cais Mauá.
+      No entanto, em 2025, a estação Cais Mauá C6 foi reativada, iniciando-se
+um período de medições concomitantes entre as duas estações. Nesse mesmo
+ano, no mês de julho, ocorreu um evento de cheia do Guaíba. Durante esse
+evento, ambos os linígrafos registraram, em intervalos de 15 minutos, a cheia de
+2025, que ocorreu no período entre 12/06/2025 e 10/07/2025. A Figura 19
+apresenta os registros da réguas linimétricas da cheia de 2025.
+
+
+
+
+                                     48
+                                                Cheia de 2025 no Lago Guaíba
+                                     400
+
+                                     350
+          Níveis linimétricos (cm)
+                                     300
+
+                                     250
+
+                                     200
+
+                                     150
+                                                                      Usina do Gasômetro
+                                     100
+
+                                      50                              Cais Mauá C6
+
+                                       0
+                                        12/6   17/6    22/6        27/6        2/7         7/7
+                                                               Data
+
+
+ Figura 19. Níveis da cheia de 2025 no Guaíba em Usina do Gasômetro e Cais Mauá
+                                        C6.
+
+       Com base nesses dados, buscou-se estabelecer uma correlação entre os
+níveis registrados nas duas estações, conforme apresentado na Figura 20. A
+comparação entre os registros indicou uma relação predominantemente linear no
+ramo de ascensão da cheia, cuja expressão analítica permite estimar os níveis do
+posto da Usina do Gasômetro a partir dos registros do posto Cais Mauá C6,
+conforme apresentado na Equação 1.
+                                               HC6 = 1,1669 ∙ HUG − 99,1417                      Equação 1
+
+Onde:
+HC6 são os níveis no posto Cais Mauá C6, em cm;
+HUG são os níveis na Usina do Gasômetro, em cm.
+
+
+
+
+                                                              49
+                                                      Relação dos Níveis Linimétricos do Cais Mauá
+                                                      C6 e da Usina do Gasômetro na Cheia de 2025
+                                              350
+
+         Níveis linimétricos - Cais C6 (cm)
+                                              300
+
+
+                                              250
+
+
+                                              200
+
+
+                                              150
+                                                                                       Relação de níveis
+
+                                              100                                      Reta do ramo de ascensão
+                                                                                       y = 1,1669x - 99,417
+
+                                               50
+                                                    100     150       200        250        300            350    400
+                                                          Elevação do Nível d'Água - Unisa do Gasômetro (m)
+
+
+Figura 20. Relação dos níveis da cheia de 2025 no Guaíba em Usina do Gasômetro e
+                                   Cais Mauá C6.
+
+       Ressalta-se que, tanto os valores de entrada quanto os valores de saída
+da equação estão referenciados na régua histórica da estação Cais Mauá C6, na
+qual a cota de 3,00 m corresponde à inundação do piso do cais.
+       Destaca-se, ainda, que, em 29/08/2025, a estação da Usina do
+Gasômetro teve seu referencial altimétrico alterado, passando a ser
+vinculada ao Datum vertical de Imbituba (ANA; SGB, 2025). Dessa forma, a
+relação apresentada neste estudo não é válida para análises posteriores a
+29/08/2025 e, portanto, não deve ser utilizada após essa data, uma vez que as
+estações passaram a adotar referenciais altimétricos distintos daqueles
+considerados na análise comparativa.
+      A partir da relação obtida, foi possível reconstituir o hidrograma da
+cheia de 2024 no posto Cais Mauá C6, com base nos registros da estação da
+Usina do Gasômetro, recuperando a informação que havia sido perdida em
+decorrência da falha da estação em 03/05/2024.
+      Além disso, essa reconstituição possibilitou a comparação entre as cheias
+de 2024 e de 1941 utilizando a mesma referência de nível, conforme apresentado
+na Figura 21. Como as medições ocorrem várias vezes ao dia, adotou-se para
+elaboração do cotagrama o nível máximo diário. Quanto aos níveis de 1941,
+considerou-se os dados apresentados no estudo de Silveira (2020), referentes à
+estação 87450000.
+
+
+
+                                                                            50
+      Os dados utilizados para o hidrograma são apresentados na Tabela 14,
+considerando a referência histórica do Cais Mauá C6, na qual a cota de inundação
+do piso do cais corresponde a 3,00 m. Os pluviogramas foram elaborados com
+base nos dados de precipitação das estações pluviométricas disponíveis,
+conforme descrito no item 6.1.
+
+
+                                          Níveis das Cheias de 2024 e 1941 em Porto Alegre
+                          7,00                                                                                  0
+
+
+
+
+                                                                                                                       Precipitação diária média na bacia (mm)
+                          6,00                                                                                  40
+
+
+                                                                                                                80
+                          5,00
+   Níveis Cais Mauá (m)
+
+
+
+
+                                                                                                                120
+                          4,00
+                                                                                                                160
+                          3,00
+                                                                                                                200
+
+                          2,00
+                                                                                                                240
+
+                          1,00                                                                                  280
+
+
+                          0,00                                                                                  320
+                                 7/4   14/4   21/4     28/4     5/5    12/5    19/5   26/5    2/6     9/6   16/6
+
+                                   Precipitação 1941          Precipitação 2024       Nível 2024         Nível 1941
+
+
+
+  Figura 21. Cotagramas e pluviogramas referentes aos eventos de 1941 e 2024.
+
+                            Tabela 14. Níveis diários das Cheias de 1941 e 2024 no Cais Mauá.
+                                        Nível no         Nível no                             Nível no       Nível no
+  Dia/Mês                              Cais Mauá        Cais Mauá          Dia/Mês           Cais Mauá      Cais Mauá
+                                        em 1941          em 2024                              em 1941        em 2024
+         07/04                            0,52                0,76            12/05            3,68             4,44
+         08/04                            0,58                0,82            13/05            3,51             4,96
+         09/04                            0,50                0,78            14/05            3,42             5,13
+         10/04                            0,52                0,83            15/05            3,42             5,11
+         11/04                            0,50                1,16            16/05            3,45             4,90
+         12/04                            0,56                1,02            17/05            3,48             4,57
+         13/04                            0,52                0,87            18/05            3,39             4,33
+         14/04                            0,58                0,60            19/05            3,27             4,23
+         15/04                            0,60                0,74            20/05            3,13             4,06
+         16/04                            0,55                0,61            21/05            3,02             3,87
+         17/04                            0,60                0,76            22/05            2,92             3,63
+         18/04                            0,88                0,91            23/05            2,81             3,63
+         19/04                            0,80                0,97            24/05            2,69             4,05
+
+
+
+                                                                      51
+               Nível no     Nível no                  Nível no     Nível no
+  Dia/Mês     Cais Mauá    Cais Mauá      Dia/Mês    Cais Mauá    Cais Mauá
+               em 1941      em 2024                   em 1941      em 2024
+   20/04         0,74         1,01        25/05         2,55         3,88
+   21/04         0,76         0,95        26/05         2,42         3,84
+   22/04         0,81         1,02        27/05         2,38         3,65
+   23/04         0,95         1,04        28/05         2,52         3,59
+   24/04         0,92         1,11        29/05         2,35         3,57
+   25/04         0,96         1,15        30/05         3,00         3,49
+   26/04         1,36         0,96        31/05         2,68         3,32
+   27/04         1,26         0,96        01/06         2,64         3,22
+   28/04         1,20         1,38        02/06         2,49         3,12
+   29/04         1,44         1,26        03/06         2,40         3,51
+   30/04         1,62         1,40        04/06         2,32         3,14
+   01/05         1,88         2,16        05/06         2,26         2,96
+   02/05         2,37         3,69        06/06         2,20         2,81
+   03/05         2,72         4,51        07/06         2,09         2,70
+   04/05         3,12         5,16        08/06         2,00         2,59
+   05/05         3,35         5,25        09/06         1,91         2,46
+   06/05         3,75         5,23        10/06         1,83         2,47
+   07/05         4,21         5,20        11/06         1,76         2,34
+   08/05         4,75         5,07        12/06         1,88         2,20
+   09/05         4,40         4,91        13/06         1,99         2,16
+   10/05         4,20         4,57        14/06         1,76         2,02
+   11/05         3,86         4,41        15/06         1,69         2,16
+
+       Ao comparar os eventos, em 2024, observa-se um volume total de
+precipitação acumulada superior ao de 1941. No pico da cheia, a
+precipitação acumulada em 2024 ultrapassou 660 mm, enquanto em 1941 foi em
+torno de 610 mm. Além disso, após o pico, a chuva foi contínua em 2024,
+chegando a cerca de 1.180 mm acumulados no final da série, enquanto em 1941
+estabilizou-se em torno de 803 mm. Ou seja, houve praticamente 50% mais
+chuva acumulada em 2024, o que teve impacto direto na resposta hidrológica da
+bacia.
+       Outro fator relevante é a distribuição temporal da chuva: em 2024, a
+chuva foi frequente e intensa em diversos dias, enquanto em 1941 a
+distribuição foi menos intensa e mais concentrada no tempo. Isso ajuda
+a explicar a elevação mais rápida e prolongada do nível do Guaíba em 2024.
+        A cota máxima atingida em 2024no Cais Mauá (Doca 4) de 5,24 m em
+05/05 foi superior à de 1941 no mesmo local, de 4,75 m em 08/05, indicando um
+evento mais extremo em termos de nível da água. Além disso, o patamar elevado
+foi sustentado por mais tempo em 2024. A cheia de 1941 apresentou uma descida
+mais expressiva a partir do pico (com tendência contínua de redução), enquanto
+
+                                     52
+a cheia de 2024 apresentou rápida elevação seguida de declínio acentuado,
+mantendo-se acima de 3,00 m por mais de 30 dias.
+
+6.3 EFEITO DE MUDANÇA CLIMÁTICA OBSERVADO EM 2024
+       O evento de cheia de maio/2024 no Rio Grande do Sul reflete a influência
+das mudanças climáticas, considerando que as temperaturas globais
+aumentaram aproximadamente 1,50 °C desde a era pré-industrial, aquecendo os
+oceanos. As características gerais do evento de 2024 são semelhantes às da
+enchente de 1941, porém, a inundação recente demonstra uma combinação de
+condições climáticas preexistentes, agravadas pelo aquecimento global,
+resultando em precipitações mais intensas em um período mais curto.
+       Os anos de 2023 e 2024 foram influenciados por um forte evento de El
+Niño (Figura 22). O índice do El Niño atingiu um pico de 2,10 em outubro de
+2023, classificando o evento como muito forte, mas caiu para -0,2 em maio de
+2024, indicando condições neutras.
+       Durante episódios de El Niño, o aumento da precipitação no Rio Grande
+do Sul é esperado, pois as águas aquecidas do Pacífico intensificam a
+nebulosidade e induzem a formação da Alta da Bolívia. Esse sistema, por sua vez,
+fortalece a corrente subtropical de oeste (Durkee e Mote, 2010), favorecendo a
+atividade de sistemas convectivos na região. Em anos de El Niño, esse fenômeno
+se intensifica, promovendo chuvas frequentes no estado do Rio Grande do Sul
+(Cai et al., 2020).
+
+
+
+
+Fonte: Elaborado com base em NOAA (2024).
+
+Figura 22. Índice de El Niño, demostrando um efeito forte antecedente as chuvas de
+                                abril/maio de 2024.
+
+
+
+                                            53
+       A precipitação extrema observada no mês de maio de 2024 pode ser
+explicada por uma interconexão global, originada no Oceano Índico (Reboita et
+al., 2024). Esse padrão, impulsionado pelo aumento da precipitação na região,
+gerou ondas em altos níveis que atingiu o sul do Brasil, desencadeando sistemas
+frontais e sucessivos episódios de chuva. O bloqueio atmosférico imposto por um
+sistema de alta pressão impediu que essas frentes avançassem para o norte,
+resultando na precipitação intensa registrada.
+       Além disso, estudos realizados há pelo menos 12 anos (Arnell e Gosling,
+2013), utilizando múltiplos modelos climáticos, já indicavam que a região sul do
+Brasil teria um aumento na frequência de enchentes devido às mudanças
+climáticas, o que foi confirmado pelo evento de 2024. Desde a década de 1970,
+observa-se uma tendência de aumento dos fluxos em rios do sul do Brasil e da
+Argentina (Tucci, 2014).
+       O cenário da enchente de 2024 resultou de uma combinação de fatores
+climáticos, incluindo a presença do El Niño duradouro nos meses antecedentes
+ao evento, temperaturas elevadas no Oceano Atlântico e a interconexão global
+dos sistemas climáticos do Hemisfério Sul, criando condições favoráveis ao
+aumento da precipitação no Rio Grande do Sul, que culminou na maior enchente
+dos últimos 125 anos.
+
+
+
+
+                                     54
+7 PROJEÇÃO DE MUDANÇA CLIMÁTICA
+       A evolução do clima da terra está associada à variabilidade natural do
+sistema terrestre composto pela terra sólida, os oceanos e águas superficiais, a
+atmosfera, e aos impactos causados pela civilização humana ao longo de
+milênios. A civilização, sobretudo durante o último milênio, alterou a cobertura
+da terra com atividades agrícolas e de extração vegetal e mineral, e alterou
+também a composição da atmosfera pela adição de gases derivados das
+atividades industriais e de transporte, majoritariamente pela queima de
+combustíveis fósseis.
+       A análise dos efeitos no clima da mudança de uso da terra e dos gases
+liberados para a atmosfera decorrentes das atividades humanas não é trivial. Os
+primeiros esforços no sentido de prever o clima futuro se iniciaram em 1995,
+quando foi criado o CMIP (Coupled Model Intercomparison Project). Modelos
+acoplados oceano-atmosfera foram então a base para os desenvolvimentos
+futuros, com complexidade crescente e com requisitos computacionais cada vez
+maiores. Resultados mais efetivos surgiram nos anos 2000 a partir do CMIP3
+quando foram introduzidos cenários socioeconômicos como entrada nos modelos
+de previsão. Culminam nos dias de hoje com o CMIP6 5 cujos dados foram
+liberados para a comunidade em 2021.
+      Os cenários do CMIP6 são o que há de mais atual em termos de projeções
+do futuro do clima terrestre e foram usados nos últimos relatórios do
+Intergovernamental Panel on Climate Change (IPCC6). Com base nesses cenários
+o presente documento busca identificar mudanças climáticas na Região
+Hidrográfica do Guaíba.
+
+7.1 IDENTIFICAÇÃO DOS CENÁRIOS CLIMÁTICOS POTENCIAIS
+        O CMIP6 utiliza simulações climáticas históricas e futuras baseadas em
+dados atmosféricos, oceânicos e socioeconômicos pré-definidos. Essas
+simulações, realizadas por grandes centros internacionais devido à sua alta
+demanda computacional, abrangem cerca de 100 cenários produzidos por 49
+instituições. Os cenários SSP (Shared Socio-economic Pathways) variam de
+otimistas, com redução das emissões de carbono, a pessimistas, com aumentos
+significativos.
+       As simulações do CMIP6, seja do clima presente ou as projeções do clima
+futuro, são diferentes ao considerarmos as distintas rodadas, mesmo que de um
+mesmo centro de previsão. No conjunto passado (CMIP5) foi feita uma análise
+sobre quais das simulações melhor representam a chuva e a radiação solar na
+
+5
+    Mais informações em: https://esgf-node.llnl.gov/projects/cmip6/
+6
+    Mais informações em: https://www.ipcc.ch/reports/
+
+                                              55
+América do Sul no clima presente (Yin et al, 2013). O estudo concluiu que um
+dos modelos era sensivelmente melhor que os demais na reprodução da chuva.
+Uma vez que para o CMIP6 os estudos de performance dos modelos ainda não
+são totalmente conclusivos, para o presente relatório a proposição foi escolher a
+melhor simulação deste novo conjunto. O interesse está na simulação que melhor
+representa o clima da Região Hidrográfica do Guaíba.
+        Para determinar a simulação climática foram avaliados os períodos
+históricos de todas as simulações do CMIP6 que possuem dados disponíveis
+(histórico e clima futuro). A premissa é que as simulações que melhor
+representaram o clima para as décadas passadas provavelmente serão as que
+melhor representarão o clima nos períodos futuros.
+       Como forma de caracterizar o clima presente, a existência de observações
+meteorológicas é imprescindível, embora seja comum esbarrar em limitações
+acerca da disponibilidade espacial e temporal de dados observados,
+principalmente no que diz respeito a longos períodos coletados que caracterizam
+uma análise climática. Para contornar essas limitações é comum o uso de campos
+meteorológicos de referência para as décadas passadas denominados reanálises
+atmosféricas.
+       As reanálises são modelos numéricos de circulação geral da atmosfera que
+fazem o uso de técnicas de assimilação de dados observacionais para gerar
+campos tridimensionais que descrevem o comportamento das condições de
+tempo em um instante específico. Nas reanálises são assimilados todos os dados
+observados disponíveis pelos centros governamentais (dados coletados em
+superfície, boias, perfis verticais da atmosfera obtidos com balões radiossonda,
+sensoriamento remoto etc.) e essa é a forma com que dados meteorológicos
+esparsos no espaço e no tempo são incorporados em simulações numéricas que
+consideram os inúmeros processos físicos da atmosfera assim como os efeitos
+locais, gerando assim informações contínuas do ponto de vista de espaço e
+tempo. O procedimento é realizado pelos grandes centros operacionais de
+previsão de tempo e uma das principais referências de reanálise é a produzida
+pelo Centro Europeu ECMWF (European Centre for Medium-Range Weather
+Forecasts) denominada ERA5 (5ª geração da Reanálise do ECMWF).
+       O ERA5 (Hersbach et al, 2020) fornece um conjunto de informações de
+alta resolução do sistema acoplado oceano/atmosfera/superfície para promover
+as melhores estimativas destes componentes do sistema climático. Os dados
+possuem abrangência global em uma grade de 30 km e resolvem a atmosfera
+usando 137 níveis da superfície até uma altura de 80 km. O ERA5 utiliza o que
+há de melhor em técnicas de análise e previsão em modelos de circulação geral
+combinadas com grandes quantidades de observações históricas incorporadas
+por técnicas avançadas de assimilação de dados. Os dados são disponibilizados
+
+                                      56
+de 1959 até o presente e publicadas com um delay de 3 meses em relação ao
+momento atual. A variável que será analisada nesse trabalho é a precipitação
+acumulada (mm/dia).
+
+7.2 METODOLOGIA DOS DADOS DE PROJEÇÃO CLIMÁTICA
+       Para uma primeira análise dos modelos do CMIP6 que melhor representam
+o clima presente foram escolhidas 23 simulações. O critério de escolha foi
+baseado na literatura científica (Dias e Reboita, 2021) e no desempenho sobre o
+Brasil em rodadas anteriores, principalmente no CMIP5. Também foi aplicado
+como critério de escolha os modelos que possuem todos os dados necessários
+para as análises propostas (precipitação, vento e radiação solar) tanto para o
+período histórico como para o período futuro.
+       Os dados podem ser baixados de diferentes repositórios, como o do site
+do WCRP7 (World Climate Research Programme). As simulações seguem
+padronização de períodos simulados, nomes de variáveis, cenários histórico e
+futuros, dentre outras características. Porém para comparação com nossa
+referência (ERA5) é necessário colocar todos as fontes em uma mesma
+formatação de grade, cujos procedimentos podem ser resumidos em:
+      •   Padronização dos períodos entre os conjuntos, 1980-2015 (período
+          histórico);
+      •   Seleção dos membros controle de cada simulação do CMIP6 com dados
+          disponíveis;
+      •   Limitação das regiões de estudo;
+      •   Determinação das médias de longo prazo para a precipitação;
+      •   Cálculo da diferença média entre os campos das simulações e da reanálise
+          (viés médio);
+      •   Cálculo da raiz do erro quadrático médio (RMSD) entre as simulações e a
+          reanálise;
+      •   Cálculo do coeficiente de correlação entre as simulações e a reanálise;
+      •   Cálculo da variância das simulações e da reanálise;
+      •   Síntese das análises por meio do diagrama de Taylor.
+
+7.2.1 AVALIAÇÃO DOS MODELOS
+     O Diagrama de Taylor (Taylor, 2001) é uma ferramenta estatística
+amplamente utilizada na climatologia e meteorologia para avaliar a qualidade e
+
+
+7
+    Dados disponíveis em: https://esgf-node.llnl.gov/search/cmip6
+
+                                              57
+a similaridade entre conjuntos de dados simulados e observados. Ele permite
+visualizar simultaneamente três métricas fundamentais:
+   •    I-    Correlação: mede o grau de associação entre os dados simulados e
+        observados. Valores próximos de 1 indicam forte correspondência,
+        enquanto valores menores sugerem discrepâncias nos padrões espaciais
+        ou temporais.
+   •    II - Raiz do Erro Quadrático Médio (RMSD): indica o erro médio entre a
+        simulação e a referência. Quanto menor o valor, mais próxima a simulação
+        está dos dados observados.
+   •    III -Variância Normalizada: representa a amplitude da variabilidade dos
+        modelos em relação à referência. Valores próximos de 1 indicam que a
+        variabilidade da simulação está bem representada.
+       No contexto da avaliação dos modelos do CMIP6 sobre Porto Alegre e a
+Bacia do Lago Guaíba, o Diagrama de Taylor permite identificar quais simulações
+reproduzem a precipitação em comparação com os dados do ERA5. Modelos
+posicionados mais próximos do ponto de referência no diagrama apresentam
+melhor desempenho, refletindo menor erro e maior correlação com os dados
+observados.
+       Essa análise é fundamental para selecionar os modelos mais adequados
+para projeções climáticas futuras na região, garantindo maior confiabilidade nos
+cenários utilizados para avaliação dos impactos das mudanças climáticas.
+
+7.3 SELEÇÃO DOS CENÁRIOS CLIMÁTICOS
+      A Tabela 15 apresenta os modelos selecionados, incluindo as instituições
+responsáveis e as referências detalhadas.
+                         Tabela 15. Modelos CMIP6 avaliados.
+       MODELO           REFERÊNCIAS                                    INSTITUIÇÃO
+   ACCESS-CM2           Dix et al. (2019)            CSIRO-Australia
+  ACCESS-ESM1-5        Ziehn et al. (2019)           CSIRO-Australia
+                                                     Alfred Wegener Institute, Helmholtz Centre for Polar
+  AWI-CM-1-1-MR       Semmler et al. (2018)
+                                                     and Marine Research
+                                                     Alfred Wegener Institute, Helmholtz Centre for Polar
+  AWI-ESM-1-1-LR       Danek et al. (2020)
+                                                     and Marine Research
+                    Scoccimarro, Bellucci and        Fondazione Centro Euro-Mediterraneo sui
+  CMCC-CM2-HR4
+                          Peano (2020)               Cambiamenti Climatici
+                                                     Fondazione Centro Euro-Mediterraneo sui
+  CMCC-CM2-SR5      Lovato and Peano (2020)
+                                                     Cambiamenti Climatici
+   CNRM_CM6_1         Voldoire et al. (2019)         CNRM/CERFACS
+   CNRM_ESM2_1           Seferian (2018)             CNRM/CERFACS
+    bcc_csm2_mr         Wu et al. (2019)             Beijing Climate Center (BCC)
+                                                     Canadian Centre for Climate Modelling and Analysis
+       CanESM5         Swart et al. (2019)
+                                                     (CCCma)
+     E3SM-1-0          Golaz et al. (2019)           U.S. Department of Energy (DOE)
+     E3SM-1-1          Rasch et al. (2022)           U.S. Department of Energy (DOE)
+   E3SM-1-1-ECA         Xie et al. (2022)            U.S. Department of Energy (DOE)
+    EC-EARTH3-
+                   EC-Earth Consortium (2020a)       European Consortium of Meteorological Services
+     AerChem
+
+
+                                                58
+   MODELO              REFERÊNCIAS                                    INSTITUIÇÃO
+   EC-Earth_cc    EC-Earth Consortium (2020a)       European Consortium of Meteorological Services
+   GFDL-ESM4         Krasting et al. (2018)         Geophysical Fluid Dynamics Laboratory
+HADGEM3_GC31_ll          Roberts (2017)             Met Office Hadley Center
+HADGEM_gc31_MM           Roberts (2017)             Met Office Hadley Center
+  FIO-ESM-2-0          Bao et al. (2020)            First Institute of Oceanography (FIO), China
+   INM-CM4-8         Volodin et al. (2019a)         Institute for Numerical Mathematics (INM), Russia
+   INM-CM5-0         Volodin et al. (2019b)         Institute for Numerical Mathematics (INM), Russia
+                                                    Institut Pierre-Simon Laplace Climate Modelling
+  IPSL-CM6A-LR       Boucher et al. (2018)
+                                                    Centre
+                                                    National Institute of Meteorological Sciences/Korea
+   KACE-1-0-G          Byun et al. (2019)
+                                                    Meteorological Administration
+                                                    JAMSTEC (Japan Agency for Marine-Earth Science
+    MIROC6          Shiogama et al. (2019)
+                                                    and Technology)
+                                                    JAMSTEC (Japan Agency for Marine-Earth Science
+  MIROC_ES2l          Hajima et al. (2020)
+                                                    and Technology)
+                     Jungclaus, Bittner and
+ MPI-ESM1-2-HR                                      Max Plank Institute
+                        Wieners (2019)
+ MPI-ESM1-2-LR        Wieners et al. (2019)         Max Plank Institute
+  MRI-ESM2-0         Yukimoto et al. (2019)         Meteorological Research Institute, Tsukuba, Ibaraki
+                                                    Research Center for Environmental Changes,
+    TaiESM1            Lee et al. (2020)
+                                                    Academia Sinica, Taiwan
+  UKESM1_0_ll         Tang et al. (2019)            Met Office Hadley Centre
+  ACCESS-CM2           Dix et al. (2019)            CSIRO-Australia
+ ACCESS-ESM1-5        Ziehn et al. (2019)           CSIRO-Australia
+                                                    Alfred Wegener Institute, Helmholtz Centre for Polar
+ AWI-CM-1-1-MR       Semmler et al. (2018)
+                                                    and Marine Research
+                                                    Alfred Wegener Institute, Helmholtz Centre for Polar
+ AWI-ESM-1-1-LR       Danek et al. (2020)
+                                                    and Marine Research
+                   Scoccimarro, Bellucci and        Fondazione Centro Euro-Mediterraneo sui
+ CMCC-CM2-HR4
+                         Peano (2020)               Cambiamenti Climatici
+                                                    Fondazione Centro Euro-Mediterraneo sui
+ CMCC-CM2-SR5      Lovato and Peano (2020)
+                                                    Cambiamenti Climatici
+ CNRM_CM6_1          Voldoire et al. (2019)         CNRM/CERFACS
+ CNRM_ESM2_1            Seferian (2018)             CNRM/CERFACS
+  bcc_csm2_mr          Wu et al. (2019)             Beijing Climate Center (BCC)
+                                                    Canadian Centre for Climate Modelling and Analysis
+    CanESM5           Swart et al. (2019)
+                                                    (CCCma)
+     E3SM-1-0         Golaz et al. (2019)           U.S. Department of Energy (DOE)
+     E3SM-1-1         Rasch et al. (2022)           U.S. Department of Energy (DOE)
+  E3SM-1-1-ECA         Xie et al. (2022)            U.S. Department of Energy (DOE)
+   EC-EARTH3-
+                  EC-Earth Consortium (2019a)       European Consortium of Meteorological Services
+     AerChem
+   EC-Earth_cc    EC-Earth Consortium (2019b)       European Consortium of Meteorological Services
+   GFDL-ESM4         Krasting et al. (2018)         Geophysical Fluid Dynamics Laboratory
+HADGEM3_GC31_ll         Roberts (2017a)             Met Office Hadley Center
+HADGEM_gc31_MM          Roberts (2017b)             Met Office Hadley Center
+   FIO-ESM-2-0         Bao et al. (2020)            First Institute of Oceanography (FIO), China
+    INM-CM4-8         Volodin et al. (2020)         Institute for Numerical Mathematics (INM), Russia
+    INM-CM5-0         Volodin et al. (2019)         Institute for Numerical Mathematics (INM), Russia
+                                                    Institut Pierre-Simon Laplace Climate Modelling
+  IPSL-CM6A-LR       Boucher et al. (2018)
+                                                    Centre
+                                                    National Institute of Meteorological Sciences/Korea
+   KACE-1-0-G          Byun et al. (2019)
+                                                    Meteorological Administration
+                                                    JAMSTEC (Japan Agency for Marine-Earth Science
+    MIROC6          Shiogama et al. (2019)
+                                                    and Technology)
+                                                    JAMSTEC (Japan Agency for Marine-Earth Science
+  MIROC_ES2l          Hajima et al. (2020)
+                                                    and Technology)
+                     Jungclaus, Bittner and
+ MPI-ESM1-2-HR                                      Max Plank Institute
+                        Wieners (2019)
+ MPI-ESM1-2-LR        Wieners et al. (2019)         Max Plank Institute
+  MRI-ESM2-0         Yukimoto et al. (2019)         Meteorological Research Institute, Tsukuba, Ibaraki
+                                                    Research Center for Environmental Changes,
+    TaiESM1            Lee et al. (2020)
+                                                    Academia Sinica, Taiwan
+  UKESM1_0_ll          Tang et al. (2019)           Met Office Hadley Centre
+
+
+                                               59
+       Na Figura 23 é apresentado o diagrama de Taylor para a região de
+interesse, no qual todos os modelos foram avaliados com base em suas médias
+de longo prazo. Essa abordagem garante uma análise consistente dos padrões
+mensais e das variações sazonais em relação à referência. Como os modelos do
+CMIP6 são produzidos a partir do clima atual e incluem forçantes radiativas que
+simulam as emissões de gases do efeito estufa, eles não são datados. Por esse
+motivo, a análise não se concentra em eventos específicos, mas sim nos padrões
+médios simulados.
+
+
+
+
+  Figura 23. Diagramas de Taylor para Região Hidrográfica do Guaíba, avaliando a
+         precipitação nos modelos do CMIP6 em relação à reanálise ERA5.
+
+       No diagrama de Taylor, a proximidade de um modelo ao ponto de
+referência indica sua capacidade de representar a variabilidade observada.
+Dentre as métricas analisadas, a correlação tem maior peso na escolha do modelo
+mais adequado para aplicações hidrológicas, pois reflete sua capacidade de
+simular corretamente a fase dos eventos de precipitação extrema, fator
+importante para projeções e estudos de impacto. O erro quadrático médio (RMS)
+e o desvio padrão complementam essa análise, indicando, respectivamente, a
+magnitude do erro e a habilidade do modelo em reproduzir a variabilidade
+observada.
+     Com base nesses critérios, a simulação ESM1_2_LR apresenta o melhor
+desempenho em relação ao clima presente, destacando-se pela correlação
+
+
+                                      60
+superior a 0,75. Outros dois modelos, ACCESS_CM2 e KACE-1-0-G, apresentaram
+correlação superior ou próxima de 0,7. Embora a simulação ESM1_2_LR tenha
+um desvio padrão e RMS cerca de 10% maiores do que os dois modelos
+mencionados, sua correlação é aproximadamente 6% superior, fator que teve
+maior peso nesta análise, conforme discutido anteriormente.
+
+
+
+
+                                   61
+8 DEFINIÇÃO DO MODELO HIDROLÓGICO
+      O estudo hidrológico tem como principal objetivo fornecer subsídios para
+a modelagem hidrodinâmica e, consequentemente, possibilitar a definição da
+nova cota dos diques, através da determinação da linha d’água.
+       Para a simulação hidrológica, foi utilizado o modelo MGB-IPH, que
+considerou os dados disponíveis (histórico e clima futuro) provenientes do item
+7. Desta forma, obteve-se uma nova série de vazões, considerando os efeitos
+das mudanças climáticas. O modelo será disponibilizado ao DMAE para uso
+futuro.
+       Dado o alto nível de complexidade do modelo hidrológico e a necessidade
+de ajustes e calibrações, este capítulo se restringe à descrição do seu
+funcionamento. Os resultados serão apresentados na parte II do relatório P05.
+        O modelo hidrológico MGB-IPH é um modelo matemático que representa
+o processo de transformação de chuva em vazão, fundamentado em princípios
+físicos e aplicado de forma distribuída na bacia hidrográfica. Desenvolvido no
+Instituto de Pesquisas Hidráulicas da Universidade Federal do Rio Grande do Sul,
+o modelo vem sendo continuamente aprimorado ao longo do tempo (Collischonn
+e Tucci, 2001; Paiva et al., 2013; Fan e Collischonn, 2015).
+        Na versão atual, o MGB-IPH subdivide a bacia hidrográfica em unidades
+menores, denominadas minibacias, com base em informações de um modelo
+digital de elevação, analisadas por meio de ferramentas de SIG. Em cada
+minibacia, podem existir uma ou mais Unidades de Resposta Hidrológica (URH),
+que classificam a paisagem sob uma perspectiva hidrológica.
+       Uma URH é uma classe de comportamento hidrológico definida pela
+combinação de variáveis relevantes, como tipos de solo, vegetação e uso da
+terra. Geralmente, essa classificação é feita com base na sobreposição de dois
+mapas: (i) tipos de solos; e (ii) vegetação e uso da terra.
+      Esses mapas são combinados e reclassificados em um SIG, resultando em
+um novo mapa com classes hidrologicamente relevantes. O objetivo desse
+processo é diferenciar as regiões de acordo com os processos hidrológicos
+predominantes.
+      A Figura 24 apresenta um exemplo gráfico da determinação das URH nas
+minibacias. O modelo é composto pelos seguintes elementos, todos
+fundamentados em bases físicas ou conceituais:
+   •   I - Balanço de água no solo;
+   •   II - Evapotranspiração;
+   •   III - Escoamentos superficial, sub-superficial e subterrâneo na célula;
+
+                                      62
+    •   IV - Escoamento na rede de drenagem.
+      A evaporação e a transpiração são calculadas no modelo MGB-IPH usando
+a equação de Penman–Monteith. A interceptação é considerada dependente da
+cobertura do solo, expressa pelo índice de área foliar da vegetação.
+
+
+
+
+Fonte: Adaptado de UFRGS, 2024.
+
+                   Figura 24. Esquematização do modelo MGB – IPH.
+
+       Os dois primeiros módulos do modelo, balanço de água no solo e
+evapotranspiração (I e II), ocorrem em cada URH dentro de cada minibacia. Já
+o terceiro módulo, escoamento na célula (III), representa o fluxo horizontal no
+interior da minibacia até a rede de drenagem, enquanto o quarto módulo
+descreve o escoamento ao longo da rede de drenagem.
+      O escoamento que deixa a camada de solo não atinge instantaneamente
+a rede de drenagem, pois sofre retardo e amortecimento ainda dentro da
+minibacia. Esses efeitos são representados no modelo por meio da passagem do
+escoamento por reservatórios lineares, conforme sua origem:
+    •   Escoamento superficial → Reservatório superficial
+    •   Escoamento sub-superficial → Reservatório sub-superficial
+    •   Escoamento subterrâneo → Reservatório subterrâneo
+      Nesses reservatórios, ocorre a convergência do escoamento proveniente
+dos diferentes tipos de uso e cobertura do solo. Cada um desses três
+
+                                       63
+reservatórios é representado matematicamente por uma equação de reservatório
+linear simples. A soma das saídas desses reservatórios define o escoamento
+incremental da minibacia, que é somado ao escoamento propagado pela rede de
+drenagem principal, contribuindo para a minibacia seguinte.
+          Assim, a seleção do MGB-IPH é baseada nas seguintes considerações:
+      •   O modelo MGB-IPH é adequado para modelagem hidrológica de bacias
+          relativamente grandes, com mais de 1000 km², com diversas aplicações
+          em todo o Brasil;
+      •   Possui um conjunto de software de suporte para facilitar o
+          desenvolvimento e a aplicação do modelo. Dispondo de ferramentas de
+          geoprocessamento aplicado a recursos hídricos8;
+      •   O modelo está bem documentado, apoiado e livremente disponível;
+      •   O código computacional é aberto;
+      •   A interface gráfica do usuário do modelo é relativamente fácil de usar;
+      •   O MGB-IPH conta com um método de propagação de vazões em rios que
+          é adequado para rios com baixa declividade, com influência de maré, com
+          a presença de planícies de inundação e com rede hidrográfica complexa.
+
+
+
+
+8
+    IPH-HydroTools, Siqueira et al., 2016).
+
+                                              64
+9 CONSIDERAÇÕES FINAIS
+        A Parte I do P05 – Estudo Hidrológico promoveu a consolidação da série
+histórica de níveis máximos do Lago Guaíba em Porto Alegre, com referência
+padronizada na Doca 4, permitindo a uniformização dos dados e possibilitando a
+aplicação de métodos estatísticos robustos.
+       A análise estatística dos dados envolveu a obtenção dos tempos de retorno
+das enchentes com base num ajuste estacionário dos dados de cotas máximas.
+Verificou-se que as séries mostravam tendência não-estacionária (variação das
+estatísticas com o tempo). Ou seja, espera-se aumento das cotas máximas para
+o futuro, considerando com o ajuste não-estacionário.
+        A análise comparativa entre os eventos de 1941 e 2024 indicou que os
+volumes totais precipitados em 2024 foram significativamente maiores, e os
+efeitos sobre o nível do Guaíba foram mais severos. O cenário da enchente de
+2024 resultou de uma combinação de fatores climáticos, incluindo a presença do
+El Niño duradouro nos meses antecedentes ao evento, temperaturas elevadas no
+Oceano Atlântico e a interconexão global dos sistemas climáticos do Hemisfério
+Sul, criando condições favoráveis ao aumento da precipitação no Rio Grande do
+Sul.
+       Os dados e análises apresentados na Parte I do relatório P05 oferecem
+subsídios fundamentais para a modelagem hidrológica, que se encontra em
+andamento e será foco da Parte II. O estudo aponta para a necessidade de
+revisão das estruturas do SPCC à luz das novas realidades climáticas e
+hidrológicas, destacando a urgência de se incorporar modelos não-estacionários
+no planejamento, como forma de garantir maior resiliência e segurança hídrica
+para Porto Alegre.
+
+
+
+
+                                     65
+REFERÊNCIAS
+Agência Nacional de Águas. Hidroweb: Sistemas de informações hidrológicas.
+   Disponível em: https://www.snirh.gov.br/hidroweb/. Acesso em: 31/03/2025.
+Alves, Augusto. (2003). Construção do Porto de Porto Alegre 1895-1930:
+   Modernidade Urbanística como Suporte de um Projeto de Estado. Dissertação
+   de Mestrado, PROPUR/UFRGS, 2003.
+ARNELL, N. W.; GOSLING, S. N. (2013) The impacts of climate change on river
+  flow regimes at the global scale. Journal of Hydrology 486 p. 351–364.
+  Bao, Y., Song, Z., & Qiao, F. (2020). FIO-ESM Version 2.0: Model Description
+  and Evaluation. Journal of Geophysical Research: Oceans, 125(4),
+  e2019JC016036. https://doi.org/10.1029/2019JC016036.
+Baibich, André. (2015). Saiba como foi a última grande enchente de Porto Alegre
+   em 1967. GZH, Porto Alegre, 12 de outubro de 2015. Disponível em:
+   https://gauchazh.clicrbs.com.br/geral/noticia/2015/10/saiba-como-foi-a-
+   ultima-grande-enchente-de-porto-alegre-em-1967-4876357.html.         Acesso
+   em: 13 dez. 2024.
+Boucher, O., Denvil, S., Levavasseur, G., et al. (2018). IPSL IPSL-CM6A-LR model
+   output prepared for CMIP6 CMIP historical. Version 20180803. Earth System
+   Grid Federation. https://doi.org/10.22033/ESGF/CMIP6.5195.
+Burnham, Kenneth P., e David R. Anderson. “Multimodel Inference:
+   Understanding AIC and BIC in Model Selection”. Sociological Methods &
+   Research, vol. 33, no 2, novembro de 2004, p. 261–304. Disponível em:
+   https://doi.org/10.1177/0049124104268644.
+Byun, Young-Hwa; Lim, Yoon-Jin; Sung, Hyun Min; Kim, Jisun; Sun, Minah; Kim,
+   Byeong-Hyeon (2019). NIMS-KMA KACE1.0-G model output prepared for
+   CMIP6       CMIP      amip.    Earth    System       Grid     Federation.
+   https://doi.org/10.22033/ESGF/CMIP6.8350.
+Brasil (1968a). Departamento Nacional de Obras de Saneamento. 15. DNOS.
+   Estudo de viabilidade técnico-econômica das obras de defesa de Porto Alegre,
+   Canoas e São Leopoldo contra inundações. Porto Alegre: DNOS, 1968. 10 v.
+   em 9. : il. ; 29cm.
+Brasil. Comando da Marinha. (2024). Centro de Hidrografia da Marinha. Descrição
+   de estação maregráfica: F-43 - Padrão - Praça da Harmonia - 60325 - versão
+   1/2019. [Porto Alegre]: Marinha do Brasil, 2020. Disponível em:
+   https://www.marinha.mil.br/chm/estacoes-fluviometricas. Acesso em: 12
+   dez. 2024.
+Brasil. Agência Nacional de Águas e Saneamento Básico (ANA); SERVIÇO
+   GEOLÓICO DO BRASIL (SGB). Nota institucional conjunta – SGB e ANA:
+   monitoramento das cheias no Rio Grande do Sul em 2024 e readequações na
+   estação Usina do Gasômetro. Brasília, DF, 2025.
+
+
+
+
+                                     66
+Cai, W. et al. Climate impacts of the El Niño-Southern Oscillation on South
+   America. Nature Reviews/ Earth & Environment 1, 215-231, (2020)
+   https://par.nsf.gov/servlets/purl/10187393.
+Cao, Jian; Wang, Bin (2019). NUIST NESMv3 model output prepared for CMIP6
+   CMIP.            Earth         System         Grid          Federation.
+   https://doi.org/10.22033/ESGF/CMIP6.2021.
+Collischonn, W.; Tucci, C. E. M., 2001. Simulação Hidrológica de grandes Bacias.
+    Revista Brasileira de Recursos Hídricos, v. 6, nº. 1.
+Danek, Christopher; Shi, Xiaoxu; Stepanek, Christian; Yang, Hu; Barbi, Dirk;
+   Hegewald, Jan; Lohmann, Gerrit (2020). AWI AWI-ESM1.1LR model output
+   prepared for CMIP6 CMIP historical. Earth System Grid Federation.
+   https://doi.org/10.22033/ESGF/CMIP6.9328.
+Dias, Cássia, e Michelle Reboita. “Assessment of CMIP6 Simulations over Tropical
+   South America”. Revista Brasileira de Geografia Física, vol. 14, no 3, julho de
+   2021,             p.            1282–95.            Disponível             em:
+   https://doi.org/10.26848/rbgf.v14.3.p1282-1295. Acesso em: 21 mar. 2025.
+Dix, Martin et al. (2019). CSIRO-ARCCSS ACCESS-CM2 model output prepared
+   for    CMIP6      CMIP   historical. Earth System  Grid    Federation.
+   https://doi.org/10.22033/ESGF/CMIP6.4271.
+Durkee J.D., Mote, T.L. A climatology of warm-season mesoscale convective
+   complexes in subtropical South America. International Journal of Climatology,
+   (2010) 30(3), 418–434. https://doi.org/10.1002/joc.1893.
+EC-Earth Consortium (2020a). EC-Earth3-AerChem model output prepared for
+   CMIP6 CMIP historical. Version 20200624. Earth System Grid Federation.
+   https://doi.org/10.22033/ESGF/CMIP6.4701.
+EC-Earth Consortium (2020b). EC-Earth3-Veg-LR model output prepared for
+   CMIP6 CMIP historical. Version 20200217. Earth System Grid Federation.
+   https://doi.org/10.22033/ESGF/CMIP6.4707.
+ESTEIO ENGENHARIA E AEROLEVANTAMENTOS S.A. Carta geral ao usuário –
+   SIRGAS 2000. 2011.
+Fan, F. M.; Collischonn, W., 2014. Integração do Modelo MGB-IPH com Sistema
+   de Informação Geográfica. Revista Brasileira de Recursos Hídricos, v. 19, p.
+   243-254. 2014b.
+Fundação Estadual de Proteção Ambiental – FEPAM. (2023). Relatório da
+      Qualidade da Água Superficial do Estado do Rio Grande do Sul. 2023.
+      Disponível em: https://fepam.rs.gov.br/relatorios-da-qualidade-da-agua.
+      Acesso em: 31 out. 2024.
+Germano, Andrea de Oliveira et al. (2024). Avaliação indireta do nível máximo
+   das águas do delta do Rio Jacuí na região central de Porto Alegre, entre as
+
+
+                                      67
+   estações Cais Mauá C6 e Usina do Gasômetro, na grande cheia de maio de
+   2024. Porto Alegre: Serviço Geológico do Brasil, 2024.
+Golaz, J.-C., Caldwell, P. M., Van Roekel, L. P., Petersen, M. R., Tang, Q., Wolfe,
+   J. D., ... & Bader, D. C. (2019). The DOE E3SM Coupled Model Version 1:
+   Overview and Evaluation at Standard Resolution. Journal of Advances in
+   Modeling            Earth         Systems,           11(7),         2089–2129.
+   https://doi.org/10.1029/2018MS001603
+Hajima, T., Watanabe, M., Yamamoto, A., Tatebe, H., Noguchi, M. A., Abe, M.,
+   Ohgaito, R., Ito, A., Yamazaki, D., Okajima, H., Ito, A., Takata, K., Ogochi,
+   K., Watanabe, S., & Kawamiya, M. (2020). Development of the MIROC-ES2L
+   Earth system model and the evaluation of biogeochemical processes and
+   feedbacks. Geoscientific Model Development, 13(5), 2197–2244.
+   https://doi.org/10.5194/gmd-13-2197-2020.
+Hersbach, Hans, et al. “The ERA5 Global Reanalysis”. Quarterly Journal of the
+   Royal Meteorological Society, vol. 146, no 730, julho de 2020, p. 1999–
+   2049. DOI.org (Crossref), https://doi.org/10.1002/qj.3803. Acesso em: 18
+   mar. 2025.
+Instituto Brasileiro de Geografia e Estatística – IBGE. (2018). Relatório de estação
+   geodésica: estação 1788A; Porto Alegre: IBGE, 2018. Disponível em:
+   http://www.bdg.ibge.gov.br/bdg/pdf/relatorio.asp?L1=1788A. Acesso em:
+   16 ago. 2024.
+Instituto Brasileiro de Geografia e Estatística – IBGE. (2021). Bacias Hidrográficas
+   do Brasil – BHB250. Rio de Janeiro: IBGE, 2021. Disponível em:
+   https://www.ibge.gov.br/geociencias/cartas-e-mapas/informacoes-
+   ambientais/31653-bacias-e-divisoes-hidrograficas-do-brasil.html. Acesso em
+   04 nov. 2024.
+Instituto Brasileiro de Geografia e Estatística – IBGE. (2024). IBGE Cidades:
+   estimativa da população de Porto Alegre para 2024. Disponível em:
+   https://cidades.ibge.gov.br/brasil/rs/porto-alegre/panorama. Acesso em: 2
+   dez. 2024.
+Instituto de Pesquisas Hidráulicas – IPH/UFRGS. (2016). Execução dos estudos
+   das alternativas para o desenvolvimento do projeto do portão principal do cais
+   do porto localizado no município de Porto Alegre/RS. Volume I: Relatório final.
+   Porto Alegre, 22 jan. 2006.
+Jungclaus, J., Bittner, M., Wieners, K.H. (2019). MPI-M MPI-ESM1.2-HR model
+   output prepared for CMIP6 CMIP historical. Version 20190710. Earth System
+   Grid Federation. https://doi.org/10.22033/ESGF/CMIP6.6594.
+Krasting, John P. et al. (2018). NOAA-GFDL GFDL-ESM4 model output prepared
+   for      CMIP6        CMIP.     Earth    System    Grid     Federation.
+   https://doi.org/10.22033/ESGF/CMIP6.1407.
+Lee, W.-L., Wang, Y.-C., Shiu, C.-J., Tsai, I.-C., Hsu, H.-H., Tu, C.-Y., & Chien,
+   F.-C. (2020). Taiwan Earth System Model Version 1: Description and
+
+
+
+                                       68
+   Evaluation of Mean State. Geoscientific Model Development, 13(9), 3887–
+   3904. https://doi.org/10.5194/gmd-13-3887-2020.
+Lovato, Tomas; Peano, Daniele (2020). CMCC CMCC-CM2-SR5 model output
+   prepared for CMIP6 ScenarioMIPP. Parth System Grid Federation.
+   https://doi.org/10.22033/ESGF/CMIP6.1365.
+NOAA – National Oceanic and Atmospheric Administration. Série temporal mensal
+  da       região       Niño      3.4.      2024.        Disponível      em:
+  https://psl.noaa.gov/data/timeseries/monthly/NINO34.
+Paiva, R. C. D.; Buarque, D. C.; Collischonn, W.; Bonnet, M.-P.; Frappart, F.;
+   Calmant, S.; Bulhões Mendes, C. A., 2013b. Large-scale hydrologic and
+   hydrodynamic modeling of the Amazon River basin. Water Resources
+   Research, v. 49, p. 1226-1243.
+Possantti, Iporã et al. (2024). Banco de dados das cheias na Região Hidrográfica
+   do Lago Guaíba em maio de 2024 (versão 1.2). Zenodo. Disponível em:
+   https://zenodo.org/doi/10.5281/zenodo.11164049. Acesso em: 17 dez. 2024
+Prefeitura Municipal de Porto Alegre – PMPA. (1956). Mosaico Aerofotográfico.
+   Ministério da Guerra, 1956.
+Prefeitura Municipal de Porto Alegre – PMPA. (1979). Lei Complementar nº 43,
+   de 19 de setembro de 1979. Dispõe sobre o desenvolvimento urbano no
+   município de Porto Alegre, institui o primeiro Plano Diretor de
+   Desenvolvimento Urbano e dá outras providências. Porto Alegre, RS: Câmara
+   Municipal      de       Porto     Alegre,     1979.     Disponível     em:
+   https://leismunicipais.com.br/a/rs/p/porto-alegre/lei-
+   complementar/1979/5/43/lei-complementar-n-43-1979-dispoe-sobre-o-
+   desenvolvimento-urbano-no-municipio-de-porto-alegre-institui-o-primeiro-
+   plano-diretor-de-desenvolvimento-urbano-e-da-outras-providencia. Acesso
+   em: 12 dez. 2024.
+Prefeitura Municipal de Porto Alegre –          PMPA    (2021).   Levantamento
+   topobatimétrico com Lidar. PMPA, 2021.
+Prefeitura Municipal de Porto Alegre –          PMPA    (2024).   Levantamento
+   topobatimétrico com Lidar. PMPA, 2024.
+Prefeitura Municipal de Porto Alegre – PMPA. (2024). Análise preliminar operação
+   e manutenção industrial do sistema de proteção contra cheias na inundação
+   de maio de 2024. Porto alegre: Departamento Municipal de Água e Esgotos,
+   2024.
+PMPA - Prefeitura Municipal de Porto Alegre (2024). Inundações. Disponível em:
+  https://prefeitura.poa.br/inundacoes. Acesso em: 13 dez. 2024.
+PMPA - Prefeitura Municipal de Porto Alegre (2024). Relatório fotográfico.
+  Objetivo: Relatório fotográfico das comportas que compõem o Sistema de
+  Proteção Contra Cheias do Município de Porto Alegre/RS. Porto Alegre: DMAE,
+  jun. 2024.
+
+
+
+                                     69
+Rasch, P. J., et al. (2022). The DOE E3SM v1.1 Biogeochemistry Configuration:
+   Description and Simulated Ecosystem–Climate Responses to Historical
+   Changes in Forcing. Journal of Advances in Modeling Earth Systems, 14(7),
+   e2021MS002867. https://doi.org/10.1029/2021MS002867.
+Reboita, M.S.; Mattos, E.V.; Capucin, B.C.; Souza, D.O.d.; Ferreira, G.W.d.S. A
+   Multi-Scale Analysis of the Extreme Precipitation in Southern Brazil in
+   April/May       2024.     Atmosphere,       15,     1123.            (2024)
+   https://doi.org/10.3390/atmos15091123.
+Roberts, Malcolm (2017). MOHC HadGEM3-GC31-LL model output prepared for
+   CMIP6 HighResMIP. Version YYYYMMDD. Earth System Grid Federation.
+   https://doi.org/10.22033/ESGF/CMIP6.190.
+SAMPAIO, Matheus; FAN, Fernando; PAIVA, Rodrigo (2024). Avaliação de
+  previsões operacionais de níveis do Guaíba realizadas durante a cheia sem
+  precedentes no Rio Grande do Sul, Brasil. In: ENCONTRO NACIONAL DE
+  DESASTRES, 4., 2024, Curitiba. ABRHidro, 2024.
+SANTOS, Hermes Vargas dos; PAZ, José Maurílio; REIS, Guaraci Bastos; PEREZ,
+   Carmem da Silva; CENTENO, Jeruza da Silva (1999). Nível de redução (“zero
+   da Harmonia”) e correlações entre diversos “data”, Superintendência de
+   Portos e Hidrovias (SOP/RS), Diretoria de Hidrovias, novembro de 1999.
+Scoccimarro, Enrico; Bellucci, Alessio; Peano, Daniele (2017). CMCC CMCC-CM2-
+   HR4 model output prepared for CMIP6 HighResMIP. Earth System Grid
+   Federation. https://doi.org/10.22033/ESGF/CMIP6.1359.
+Seferian, Roland (2018). CNRM-CERFACS CNRM-ESM2-1 model output prepared
+   for CMIP6 CMIP for experiment 1pctCO2. Earth System Grid Federation.
+   https://doi.org/10.22033/ESGF/CMIP6.3714.
+Semmler, Tido; Danilov, Sergey; Rackow, Thomas; Sidorenko, Dmitry; Barbi,
+  Dirk; Hegewald, Jan; Sein, Dmitri; Wang, Qiang; Jung, Thomas (2018). AWI
+  AWI-CM1.1MR model output prepared for CMIP6 CMIP 1pctCO2. Earth
+  System Grid Federation. https://doi.org/10.22033/ESGF/CMIP6.2543.
+SILVEIRA, André Luiz Lopes da. Chuvas e vazões da grande enchente de 1941
+   em Porto Alegre/RS. Boletim Geográfico do Rio Grande do Sul, Porto Alegre,
+   n. 35, p. 69-90, 2020.
+Siqueira, V. A.; Fleischmann, A. S.; Jardim, P.; Fan, F. M.; Collischonn, W. IPH-
+   Hydro Tools: uma ferramenta open source para determinação de informações
+   topológicas em bacias hidrográficas integrada a um ambiente SIG. Revista
+   Brasileira de Recursos Hídricos, v. 21, p. 274-287, 2016.
+Shiogama, Hideo; Abe, Manabu; Tatebe, Hiroaki (2019). MIROC MIROC6 model
+   output prepared for CMIP6 ScenarioMIP. Earth System Grid Federation.
+   https://doi.org/10.22033/ESGF/CMIP6.898.
+Swart, N. C., Cole, J. N. S., Kharin, V. V., Lazare, M., Scinocca, J. F., Gillett, N.
+  P., Anstey, J., Arora, V., Christian, J. R., Jiao, Y., Lee, W. G., Majaess, F.,
+  Saenko, O. A., Seiler, C., Seinen, C., Shao, A., Solheim, L., von Salzen, K.,
+  Yang, D., Winter, B., & Sigmond, M. (2019). The Canadian Earth System
+
+                                        70
+   Model version 5 (CanESM5.0.3). Geoscientific Model Development, 12(11),
+   4823–4873. https://doi.org/10.5194/gmd-12-4823-2019.
+Tachiiri, Kaoru et al. (2019). MIROC MIROC-ES2L model output prepared for
+   CMIP6        ScenarioMIP.      Earth   System     Grid     Federation.
+   https://doi.org/10.22033/ESGF/CMIP6.936.
+Tang, Yongming et al. (2019). MOHC UKESM1.0-LL model output prepared for
+   CMIP6       CMIP     historical. Earth    System  Grid    Federation.
+   https://doi.org/10.22033/ESGF/CMIP6.6113.
+TAYLOR, K. E. Summarizing multiple aspects of model performance in a single
+   diagram. Journal of Geophysical Research, v.106, n.7, p.7183-7192, 2001.
+   Disponível em https://doi.org/10.1029/2000jd900719. Acesso em: 19 mar.
+   2025.
+Tucci, Carlos Eduardo Morelli. (2007). Inundações Urbanas. 1. ed. Porto Alegre:
+       ABRH, 2007. 389p.
+TUCCI, C.E.M. 2014. Geração do conhecimento em recursos hídricos para
+     adaptação às mudanças climáticas. Plano nacional de adaptação às
+     mudanças climáticas. CGEE 165 pg.
+UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL. Modelo MGB 4.6.2.
+     Disponível em: https://www.ufrgs.br/hge/mgb/downloads/mgb-4-6-2/.
+     Acesso em: 1 abr. 2025.
+VALENTI, E. S., Modelo cartográfico digital temático para simulação e previsão
+   de inundações no município de Porto Alegre - RS. 2010. 140 f.: il. Dissertação
+   (Mestrado em Sensoriamento Remoto) - Centro Estadual de Pesquisas em
+   Sensoriamento Remoto e Meteorologia, Universidade Federal do Rio Grande
+   do Sul, Porto Alegre, 2010.
+Vaz, Valéria Borges (2015). Avaliação do custo do risco de inundações urbanas:
+   estudo de caso dos danos de inundação em Porto Alegre - RS. 2015.
+   Dissertação (Mestrado em Planejamento Urbano e Regional) – Universidade
+   Federal do Rio Grande do Sul, Porto Alegre, 2015.
+Voldoire et al. (2019a). Evaluation of CMIP6 DECK experiments with CNRM-CM6-
+       1.    Journal     of    Advances     in  Modeling    Earth    Systems.
+       https://doi.org/10.1029/2019MS001683.
+Volodin, Evgeny et al. (2019b). INM INM-CM5-0 model output prepared for
+      CMIP6      CMIP     piControl. Earth   System  Grid   Federation.
+      https://doi.org/10.22033/ESGF/CMIP6.5081.
+Wieners, K.-H., Giorgetta, M., Jungclaus, J., et al. (2019). MPI-M MPI-ESM1.2-LR
+      model output prepared for CMIP6 CMIP historical. Version 20190710. Earth
+      System Grid Federation. https://doi.org/10.22033/ESGF/CMIP6.6595.
+Wu, T., Lu, Y., Fang, Y., Xin, X., Li, L., Li, W., Jie, W., Zhang, J., Liu, Y., Zhang,
+      L., Zhang, F., Zhang, Y., Wu, F., Li, J., Chu, M., Wang, Z., Shi, X., Liu, X.,
+      Wei, M., Huang, A., Zhang, Y., & Liu, X. (2019). The Beijing Climate Center
+
+                                        71
+      Climate System Model (BCC-CSM): The main progress from CMIP5 to
+      CMIP6. Geoscientific Model Development, 12(4), 1573–1600.
+      https://doi.org/10.5194/gmd-12-1573-2019.
+Xie, S., Shaheen, Z., Zhang, C., Ma, P.-L., Lin, W., Tang, Q., Wolfe, J., Wan, H.,
+       Zheng, X., Zhang, Y., Golaz, J.-C., & Rasch, P. J. (2022). The E3SM
+       Diagnostics Package (E3SM Diags v2.7): A Python-based diagnostics
+       package for Earth system model evaluation. Geoscientific Model
+       Development, 15(24), 9031–9056. https://doi.org/10.5194/gmd-15-9031-
+       2022.
+Yin, Lei, et al. “How Well Can CMIP5 Simulate Precipitation and Its Controlling
+       Processes over Tropical South America?” Climate Dynamics, vol. 41, no 11,
+       dezembro        de       2013,     p.       3127–43. Springer       Link,
+       https://doi.org/10.1007/s00382-012-1582-y. Acesso em: 20 mar. 2025.
+Yukimoto, Seiji et al. (2019). MRI MRI-ESM2.0 model output prepared for CMIP6
+     CMIP.              Earth         System         Grid         Federation.
+     https://doi.org/10.22033/ESGF/CMIP6.621.
+Ziehn, Tilo et al. (2019). CSIRO ACCESS-ESM1.5 model output prepared for
+      CMIP6         CMIP.      Earth     System    Grid      Federation.
+      https://doi.org/10.22033/ESGF/CMIP6.2288.
+
+
+
+
+                                      72
+APÊNDICE A. TEMPOS DE RETORNO DA ELEVAÇÃO DO
+                  GUAÍBA
+Tabela 16. Tempos de retorno da elevação do Guaíba - obtidos com Gumbel II.
+            Ano                             Tempo de retorno (anos)
+Ano
+      correspondente    2      5      10      20   25    50   100 200   500    1000
+ 1         1899        1,50   1,96   2,27    2,56 2,66 2,94 3,23 3,51   3,88   4,16
+ 2         1900        1,51   1,97   2,27    2,57 2,66 2,94 3,23 3,51   3,88   4,17
+ 3         1901        1,51   1,97   2,28    2,57 2,66 2,95 3,23 3,51   3,89   4,17
+ 4         1902        1,51   1,97   2,28    2,57 2,66 2,95 3,23 3,52   3,89   4,17
+ 5         1903        1,51   1,98   2,28    2,57 2,67 2,95 3,24 3,52   3,89   4,17
+ 6         1904        1,52   1,98   2,28    2,58 2,67 2,95 3,24 3,52   3,89   4,18
+ 7         1905        1,52   1,98   2,29    2,58 2,67 2,96 3,24 3,52   3,90   4,18
+ 8         1906        1,52   1,98   2,29    2,58 2,67 2,96 3,24 3,53   3,90   4,18
+ 9         1907        1,52   1,99   2,29    2,58 2,68 2,96 3,25 3,53   3,90   4,18
+ 10        1908        1,53   1,99   2,29    2,59 2,68 2,96 3,25 3,53   3,90   4,19
+ 11        1909        1,53   1,99   2,30    2,59 2,68 2,97 3,25 3,53   3,91   4,19
+ 12        1910        1,53   1,99   2,30    2,59 2,68 2,97 3,25 3,54   3,91   4,19
+ 13        1911        1,54   2,00   2,30    2,59 2,69 2,97 3,26 3,54   3,91   4,19
+ 14        1912        1,54   2,00   2,30    2,60 2,69 2,98 3,26 3,54   3,92   4,20
+ 15        1913        1,54   2,00   2,31    2,60 2,69 2,98 3,26 3,54   3,92   4,20
+ 16        1914        1,54   2,00   2,31    2,60 2,69 2,98 3,26 3,55   3,92   4,20
+ 17        1915        1,55   2,01   2,31    2,60 2,70 2,98 3,27 3,55   3,92   4,20
+ 18        1916        1,55   2,01   2,31    2,61 2,70 2,99 3,27 3,55   3,93   4,21
+ 19        1917        1,55   2,01   2,32    2,61 2,70 2,99 3,27 3,56   3,93   4,21
+ 20        1918        1,55   2,01   2,32    2,61 2,70 2,99 3,27 3,56   3,93   4,21
+ 21        1919        1,56   2,02   2,32    2,61 2,71 2,99 3,28 3,56   3,93   4,22
+ 22        1920        1,56   2,02   2,32    2,62 2,71 3,00 3,28 3,56   3,94   4,22
+ 23        1921        1,56   2,02   2,33    2,62 2,71 3,00 3,28 3,57   3,94   4,22
+ 24        1922        1,56   2,02   2,33    2,62 2,72 3,00 3,29 3,57   3,94   4,22
+ 25        1923        1,57   2,03   2,33    2,63 2,72 3,00 3,29 3,57   3,94   4,23
+ 26        1924        1,57   2,03   2,34    2,63 2,72 3,01 3,29 3,57   3,95   4,23
+ 27        1925        1,57   2,03   2,34    2,63 2,72 3,01 3,29 3,58   3,95   4,23
+ 28        1926        1,57   2,04   2,34    2,63 2,73 3,01 3,30 3,58   3,95   4,23
+ 29        1927        1,58   2,04   2,34    2,64 2,73 3,01 3,30 3,58   3,95   4,24
+ 30        1928        1,58   2,04   2,35    2,64 2,73 3,02 3,30 3,58   3,96   4,24
+ 31        1929        1,58   2,04   2,35    2,64 2,73 3,02 3,30 3,59   3,96   4,24
+ 32        1930        1,58   2,05   2,35    2,64 2,74 3,02 3,31 3,59   3,96   4,24
+ 33        1931        1,59   2,05   2,35    2,65 2,74 3,02 3,31 3,59   3,96   4,25
+ 34        1932        1,59   2,05   2,36    2,65 2,74 3,03 3,31 3,59   3,97   4,25
+ 35        1933        1,59   2,05   2,36    2,65 2,74 3,03 3,31 3,60   3,97   4,25
+ 36        1934        1,60   2,06   2,36    2,65 2,75 3,03 3,32 3,60   3,97   4,25
+ 37        1935        1,60   2,06   2,36    2,66 2,75 3,04 3,32 3,60   3,98   4,26
+ 38        1936        1,60   2,06   2,37    2,66 2,75 3,04 3,32 3,60   3,98   4,26
+ 39        1937        1,60   2,06   2,37    2,66 2,75 3,04 3,32 3,61   3,98   4,26
+ 40        1938        1,61   2,07   2,37    2,66 2,76 3,04 3,33 3,61   3,98   4,26
+ 41        1939        1,61   2,07   2,37    2,67 2,76 3,05 3,33 3,61   3,99   4,27
+ 42        1940        1,61   2,07   2,38    2,67 2,76 3,05 3,33 3,62   3,99   4,27
+ 43        1941        1,61   2,07   2,38    2,67 2,77 3,05 3,33 3,62   3,99   4,27
+ 44        1942        1,62   2,08   2,38    2,67 2,77 3,05 3,34 3,62   3,99   4,28
+ 45        1943        1,62   2,08   2,38    2,68 2,77 3,06 3,34 3,62   4,00   4,28
+ 46        1944        1,62   2,08   2,39    2,68 2,77 3,06 3,34 3,63   4,00   4,28
+ 47        1945        1,62   2,08   2,39    2,68 2,78 3,06 3,35 3,63   4,00   4,28
+ 48        1946        1,63   2,09   2,39    2,69 2,78 3,06 3,35 3,63   4,00   4,29
+ 49        1947        1,63   2,09   2,40    2,69 2,78 3,07 3,35 3,63   4,01   4,29
+ 50        1948        1,63   2,09   2,40    2,69 2,78 3,07 3,35 3,64   4,01   4,29
+ 51        1949        1,63   2,10   2,40    2,69 2,79 3,07 3,36 3,64   4,01   4,29
+ 52        1950        1,64   2,10   2,40    2,70 2,79 3,07 3,36 3,64   4,01   4,30
+ 53        1951        1,64   2,10   2,41    2,70 2,79 3,08 3,36 3,64   4,02   4,30
+
+                                       73
+            Ano                             Tempo de retorno (anos)
+Ano
+      correspondente    2      5      10      20   25    50   100 200   500    1000
+ 54        1952        1,64   2,10   2,41    2,70 2,79 3,08 3,36 3,65   4,02   4,30
+ 55        1953        1,64   2,11   2,41    2,70 2,80 3,08 3,37 3,65   4,02   4,30
+ 56        1954        1,65   2,11   2,41    2,71 2,80 3,08 3,37 3,65   4,02   4,31
+ 57        1955        1,65   2,11   2,42    2,71 2,80 3,09 3,37 3,65   4,03   4,31
+ 58        1956        1,65   2,11   2,42    2,71 2,80 3,09 3,37 3,66   4,03   4,31
+ 59        1957        1,66   2,12   2,42    2,71 2,81 3,09 3,38 3,66   4,03   4,31
+ 60        1958        1,66   2,12   2,42    2,72 2,81 3,10 3,38 3,66   4,04   4,32
+ 61        1959        1,66   2,12   2,43    2,72 2,81 3,10 3,38 3,66   4,04   4,32
+ 62        1960        1,66   2,12   2,43    2,72 2,81 3,10 3,38 3,67   4,04   4,32
+ 63        1961        1,67   2,13   2,43    2,72 2,82 3,10 3,39 3,67   4,04   4,33
+ 64        1962        1,67   2,13   2,43    2,73 2,82 3,11 3,39 3,67   4,05   4,33
+ 65        1963        1,67   2,13   2,44    2,73 2,82 3,11 3,39 3,68   4,05   4,33
+ 66        1964        1,67   2,13   2,44    2,73 2,83 3,11 3,39 3,68   4,05   4,33
+ 67        1965        1,68   2,14   2,44    2,73 2,83 3,11 3,40 3,68   4,05   4,34
+ 68        1966        1,68   2,14   2,44    2,74 2,83 3,12 3,40 3,68   4,06   4,34
+ 69        1967        1,68   2,14   2,45    2,74 2,83 3,12 3,40 3,69   4,06   4,34
+ 70        1968        1,68   2,14   2,45    2,74 2,84 3,12 3,41 3,69   4,06   4,34
+ 71        1969        1,69   2,15   2,45    2,75 2,84 3,12 3,41 3,69   4,06   4,35
+ 72        1970        1,69   2,15   2,46    2,75 2,84 3,13 3,41 3,69   4,07   4,35
+ 73        1971        1,69   2,15   2,46    2,75 2,84 3,13 3,41 3,70   4,07   4,35
+ 74        1972        1,69   2,16   2,46    2,75 2,85 3,13 3,42 3,70   4,07   4,35
+ 75        1973        1,70   2,16   2,46    2,76 2,85 3,13 3,42 3,70   4,07   4,36
+ 76        1974        1,70   2,16   2,47    2,76 2,85 3,14 3,42 3,70   4,08   4,36
+ 77        1975        1,70   2,16   2,47    2,76 2,85 3,14 3,42 3,71   4,08   4,36
+ 78        1976        1,71   2,17   2,47    2,76 2,86 3,14 3,43 3,71   4,08   4,36
+ 79        1977        1,71   2,17   2,47    2,77 2,86 3,14 3,43 3,71   4,08   4,37
+ 80        1978        1,71   2,17   2,48    2,77 2,86 3,15 3,43 3,71   4,09   4,37
+ 81        1979        1,71   2,17   2,48    2,77 2,86 3,15 3,43 3,72   4,09   4,37
+ 82        1980        1,72   2,18   2,48    2,77 2,87 3,15 3,44 3,72   4,09   4,37
+ 83        1981        1,72   2,18   2,48    2,78 2,87 3,16 3,44 3,72   4,10   4,38
+ 84        1982        1,72   2,18   2,49    2,78 2,87 3,16 3,44 3,72   4,10   4,38
+ 85        1983        1,72   2,18   2,49    2,78 2,87 3,16 3,44 3,73   4,10   4,38
+ 86        1984        1,73   2,19   2,49    2,78 2,88 3,16 3,45 3,73   4,10   4,39
+ 87        1985        1,73   2,19   2,49    2,79 2,88 3,17 3,45 3,73   4,11   4,39
+ 88        1986        1,73   2,19   2,50    2,79 2,88 3,17 3,45 3,74   4,11   4,39
+ 89        1987        1,73   2,19   2,50    2,79 2,89 3,17 3,45 3,74   4,11   4,39
+ 90        1988        1,74   2,20   2,50    2,79 2,89 3,17 3,46 3,74   4,11   4,40
+ 91        1989        1,74   2,20   2,50    2,80 2,89 3,18 3,46 3,74   4,12   4,40
+ 92        1990        1,74   2,20   2,51    2,80 2,89 3,18 3,46 3,75   4,12   4,40
+ 93        1991        1,74   2,20   2,51    2,80 2,90 3,18 3,47 3,75   4,12   4,40
+ 94        1992        1,75   2,21   2,51    2,81 2,90 3,18 3,47 3,75   4,12   4,41
+ 95        1993        1,75   2,21   2,52    2,81 2,90 3,19 3,47 3,75   4,13   4,41
+ 96        1994        1,75   2,21   2,52    2,81 2,90 3,19 3,47 3,76   4,13   4,41
+ 97        1995        1,75   2,22   2,52    2,81 2,91 3,19 3,48 3,76   4,13   4,41
+ 98        1996        1,76   2,22   2,52    2,82 2,91 3,19 3,48 3,76   4,13   4,42
+ 99        1997        1,76   2,22   2,53    2,82 2,91 3,20 3,48 3,76   4,14   4,42
+100        1998        1,76   2,22   2,53    2,82 2,91 3,20 3,48 3,77   4,14   4,42
+101        1999        1,77   2,23   2,53    2,82 2,92 3,20 3,49 3,77   4,14   4,42
+102        2000        1,77   2,23   2,53    2,83 2,92 3,21 3,49 3,77   4,14   4,43
+103        2001        1,77   2,23   2,54    2,83 2,92 3,21 3,49 3,77   4,15   4,43
+104        2002        1,77   2,23   2,54    2,83 2,92 3,21 3,49 3,78   4,15   4,43
+105        2003        1,78   2,24   2,54    2,83 2,93 3,21 3,50 3,78   4,15   4,43
+106        2004        1,78   2,24   2,54    2,84 2,93 3,22 3,50 3,78   4,16   4,44
+107        2005        1,78   2,24   2,55    2,84 2,93 3,22 3,50 3,78   4,16   4,44
+108        2006        1,78   2,24   2,55    2,84 2,93 3,22 3,50 3,79   4,16   4,44
+109        2007        1,79   2,25   2,55    2,84 2,94 3,22 3,51 3,79   4,16   4,45
+110        2008        1,79   2,25   2,55    2,85 2,94 3,23 3,51 3,79   4,17   4,45
+111        2009        1,79   2,25   2,56    2,85 2,94 3,23 3,51 3,80   4,17   4,45
+112        2010        1,79   2,25   2,56    2,85 2,95 3,23 3,51 3,80   4,17   4,45
+
+
+                                       74
+            Ano                             Tempo de retorno (anos)
+Ano
+      correspondente    2      5      10      20   25    50   100 200   500    1000
+113        2011        1,80   2,26   2,56    2,85 2,95 3,23 3,52 3,80   4,17   4,46
+114        2012        1,80   2,26   2,56    2,86 2,95 3,24 3,52 3,80   4,18   4,46
+115        2013        1,80   2,26   2,57    2,86 2,95 3,24 3,52 3,81   4,18   4,46
+116        2014        1,80   2,27   2,57    2,86 2,96 3,24 3,53 3,81   4,18   4,46
+117        2015        1,81   2,27   2,57    2,87 2,96 3,24 3,53 3,81   4,18   4,47
+118        2016        1,81   2,27   2,58    2,87 2,96 3,25 3,53 3,81   4,19   4,47
+119        2017        1,81   2,27   2,58    2,87 2,96 3,25 3,53 3,82   4,19   4,47
+120        2018        1,81   2,28   2,58    2,87 2,97 3,25 3,54 3,82   4,19   4,47
+121        2019        1,82   2,28   2,58    2,88 2,97 3,25 3,54 3,82   4,19   4,48
+122        2020        1,82   2,28   2,59    2,88 2,97 3,26 3,54 3,82   4,20   4,48
+123        2021        1,82   2,28   2,59    2,88 2,97 3,26 3,54 3,83   4,20   4,48
+124        2022        1,83   2,29   2,59    2,88 2,98 3,26 3,55 3,83   4,20   4,48
+125        2023        1,83   2,29   2,59    2,89 2,98 3,27 3,55 3,83   4,20   4,49
+126        2024        1,83   2,29   2,60    2,89 2,98 3,27 3,55 3,83   4,21   4,49
+
+
+Tabela 17. Tempos de retorno da elevação do Guaíba - obtidos com GEV II.
+            Ano                             Tempo de retorno (anos)
+Ano
+      correspondente    2      5      10      20   25    50   100 200   500    1000
+1          1899        1,49   1,97   2,31    2,66 2,78 3,15 3,54 3,95   4,52   4,98
+2          1900        1,49   1,97   2,32    2,67 2,78 3,15 3,54 3,95   4,52   4,99
+3          1901        1,49   1,98   2,32    2,67 2,79 3,15 3,54 3,95   4,53   4,99
+4          1902        1,50   1,98   2,32    2,67 2,79 3,16 3,54 3,95   4,53   4,99
+5          1903        1,50   1,98   2,32    2,67 2,79 3,16 3,55 3,96   4,53   4,99
+6          1904        1,50   1,98   2,33    2,68 2,79 3,16 3,55 3,96   4,53   5,00
+7          1905        1,50   1,99   2,33    2,68 2,80 3,16 3,55 3,96   4,54   5,00
+8          1906        1,51   1,99   2,33    2,68 2,80 3,17 3,55 3,96   4,54   5,00
+9          1907        1,51   1,99   2,33    2,68 2,80 3,17 3,56 3,97   4,54   5,01
+10         1908        1,51   1,99   2,34    2,69 2,80 3,17 3,56 3,97   4,54   5,01
+11         1909        1,51   2,00   2,34    2,69 2,81 3,17 3,56 3,97   4,55   5,01
+12         1910        1,52   2,00   2,34    2,69 2,81 3,18 3,56 3,97   4,55   5,01
+13         1911        1,52   2,00   2,34    2,70 2,81 3,18 3,57 3,98   4,55   5,02
+14         1912        1,52   2,00   2,35    2,70 2,81 3,18 3,57 3,98   4,55   5,02
+15         1913        1,52   2,01   2,35    2,70 2,82 3,18 3,57 3,98   4,56   5,02
+16         1914        1,53   2,01   2,35    2,70 2,82 3,19 3,58 3,98   4,56   5,02
+17         1915        1,53   2,01   2,36    2,71 2,82 3,19 3,58 3,99   4,56   5,03
+18         1916        1,53   2,01   2,36    2,71 2,82 3,19 3,58 3,99   4,56   5,03
+19         1917        1,53   2,02   2,36    2,71 2,83 3,20 3,58 3,99   4,57   5,03
+20         1918        1,54   2,02   2,36    2,71 2,83 3,20 3,59 3,99   4,57   5,03
+21         1919        1,54   2,02   2,37    2,72 2,83 3,20 3,59 4,00   4,57   5,04
+22         1920        1,54   2,02   2,37    2,72 2,83 3,20 3,59 4,00   4,57   5,04
+23         1921        1,54   2,03   2,37    2,72 2,84 3,21 3,59 4,00   4,58   5,04
+24         1922        1,55   2,03   2,37    2,72 2,84 3,21 3,60 4,00   4,58   5,04
+25         1923        1,55   2,03   2,38    2,73 2,84 3,21 3,60 4,01   4,58   5,05
+26         1924        1,55   2,03   2,38    2,73 2,84 3,21 3,60 4,01   4,58   5,05
+27         1925        1,55   2,04   2,38    2,73 2,85 3,22 3,60 4,01   4,59   5,05
+28         1926        1,56   2,04   2,38    2,73 2,85 3,22 3,61 4,01   4,59   5,05
+29         1927        1,56   2,04   2,39    2,74 2,85 3,22 3,61 4,02   4,59   5,06
+30         1928        1,56   2,04   2,39    2,74 2,85 3,22 3,61 4,02   4,59   5,06
+31         1929        1,56   2,05   2,39    2,74 2,86 3,23 3,61 4,02   4,60   5,06
+32         1930        1,57   2,05   2,39    2,74 2,86 3,23 3,62 4,02   4,60   5,06
+33         1931        1,57   2,05   2,40    2,75 2,86 3,23 3,62 4,03   4,60   5,07
+34         1932        1,57   2,05   2,40    2,75 2,86 3,23 3,62 4,03   4,60   5,07
+35         1933        1,57   2,06   2,40    2,75 2,87 3,24 3,62 4,03   4,61   5,07
+36         1934        1,58   2,06   2,40    2,75 2,87 3,24 3,63 4,03   4,61   5,07
+37         1935        1,58   2,06   2,41    2,76 2,87 3,24 3,63 4,04   4,61   5,08
+38         1936        1,58   2,06   2,41    2,76 2,87 3,24 3,63 4,04   4,61   5,08
+39         1937        1,58   2,07   2,41    2,76 2,88 3,25 3,63 4,04   4,62   5,08
+40         1938        1,59   2,07   2,41    2,76 2,88 3,25 3,64 4,04   4,62   5,08
+
+
+                                        75
+            Ano                             Tempo de retorno (anos)
+Ano
+      correspondente    2      5      10      20   25    50   100 200   500    1000
+41         1939        1,59   2,07   2,42    2,77 2,88 3,25 3,64 4,05   4,62   5,09
+42         1940        1,59   2,07   2,42    2,77 2,88 3,25 3,64 4,05   4,63   5,09
+43         1941        1,59   2,08   2,42    2,77 2,89 3,26 3,64 4,05   4,63   5,09
+44         1942        1,60   2,08   2,42    2,77 2,89 3,26 3,65 4,05   4,63   5,09
+45         1943        1,60   2,08   2,43    2,78 2,89 3,26 3,65 4,06   4,63   5,10
+46         1944        1,60   2,08   2,43    2,78 2,89 3,26 3,65 4,06   4,64   5,10
+47         1945        1,60   2,09   2,43    2,78 2,90 3,27 3,65 4,06   4,64   5,10
+48         1946        1,61   2,09   2,43    2,78 2,90 3,27 3,66 4,07   4,64   5,10
+49         1947        1,61   2,09   2,44    2,79 2,90 3,27 3,66 4,07   4,64   5,11
+50         1948        1,61   2,09   2,44    2,79 2,90 3,27 3,66 4,07   4,65   5,11
+51         1949        1,62   2,10   2,44    2,79 2,91 3,28 3,66 4,07   4,65   5,11
+52         1950        1,62   2,10   2,44    2,79 2,91 3,28 3,67 4,08   4,65   5,11
+53         1951        1,62   2,10   2,45    2,80 2,91 3,28 3,67 4,08   4,65   5,12
+54         1952        1,62   2,10   2,45    2,80 2,91 3,28 3,67 4,08   4,66   5,12
+55         1953        1,63   2,11   2,45    2,80 2,92 3,29 3,67 4,08   4,66   5,12
+56         1954        1,63   2,11   2,45    2,80 2,92 3,29 3,68 4,09   4,66   5,12
+57         1955        1,63   2,11   2,46    2,81 2,92 3,29 3,68 4,09   4,66   5,13
+58         1956        1,63   2,11   2,46    2,81 2,92 3,29 3,68 4,09   4,67   5,13
+59         1957        1,64   2,12   2,46    2,81 2,93 3,30 3,68 4,09   4,67   5,13
+60         1958        1,64   2,12   2,46    2,81 2,93 3,30 3,69 4,10   4,67   5,13
+61         1959        1,64   2,12   2,47    2,82 2,93 3,30 3,69 4,10   4,67   5,14
+62         1960        1,64   2,13   2,47    2,82 2,94 3,30 3,69 4,10   4,68   5,14
+63         1961        1,65   2,13   2,47    2,82 2,94 3,31 3,69 4,10   4,68   5,14
+64         1962        1,65   2,13   2,47    2,82 2,94 3,31 3,70 4,11   4,68   5,14
+65         1963        1,65   2,13   2,48    2,83 2,94 3,31 3,70 4,11   4,68   5,15
+66         1964        1,65   2,14   2,48    2,83 2,95 3,31 3,70 4,11   4,69   5,15
+67         1965        1,66   2,14   2,48    2,83 2,95 3,32 3,70 4,11   4,69   5,15
+68         1966        1,66   2,14   2,48    2,83 2,95 3,32 3,71 4,12   4,69   5,15
+69         1967        1,66   2,14   2,49    2,84 2,95 3,32 3,71 4,12   4,69   5,16
+70         1968        1,66   2,15   2,49    2,84 2,96 3,32 3,71 4,12   4,70   5,16
+71         1969        1,67   2,15   2,49    2,84 2,96 3,33 3,71 4,12   4,70   5,16
+72         1970        1,67   2,15   2,49    2,84 2,96 3,33 3,72 4,13   4,70   5,17
+73         1971        1,67   2,15   2,50    2,85 2,96 3,33 3,72 4,13   4,70   5,17
+74         1972        1,67   2,16   2,50    2,85 2,97 3,33 3,72 4,13   4,71   5,17
+75         1973        1,68   2,16   2,50    2,85 2,97 3,34 3,72 4,13   4,71   5,17
+76         1974        1,68   2,16   2,50    2,86 2,97 3,34 3,73 4,14   4,71   5,18
+77         1975        1,68   2,16   2,51    2,86 2,97 3,34 3,73 4,14   4,71   5,18
+78         1976        1,68   2,17   2,51    2,86 2,98 3,34 3,73 4,14   4,72   5,18
+79         1977        1,69   2,17   2,51    2,86 2,98 3,35 3,74 4,14   4,72   5,18
+80         1978        1,69   2,17   2,52    2,87 2,98 3,35 3,74 4,15   4,72   5,19
+81         1979        1,69   2,17   2,52    2,87 2,98 3,35 3,74 4,15   4,72   5,19
+82         1980        1,69   2,18   2,52    2,87 2,99 3,36 3,74 4,15   4,73   5,19
+83         1981        1,70   2,18   2,52    2,87 2,99 3,36 3,75 4,15   4,73   5,19
+84         1982        1,70   2,18   2,53    2,88 2,99 3,36 3,75 4,16   4,73   5,20
+85         1983        1,70   2,18   2,53    2,88 2,99 3,36 3,75 4,16   4,73   5,20
+86         1984        1,70   2,19   2,53    2,88 3,00 3,37 3,75 4,16   4,74   5,20
+87         1985        1,71   2,19   2,53    2,88 3,00 3,37 3,76 4,16   4,74   5,20
+88         1986        1,71   2,19   2,54    2,89 3,00 3,37 3,76 4,17   4,74   5,21
+89         1987        1,71   2,19   2,54    2,89 3,00 3,37 3,76 4,17   4,74   5,21
+90         1988        1,71   2,20   2,54    2,89 3,01 3,38 3,76 4,17   4,75   5,21
+91         1989        1,72   2,20   2,54    2,89 3,01 3,38 3,77 4,17   4,75   5,21
+92         1990        1,72   2,20   2,55    2,90 3,01 3,38 3,77 4,18   4,75   5,22
+93         1991        1,72   2,20   2,55    2,90 3,01 3,38 3,77 4,18   4,75   5,22
+94         1992        1,72   2,21   2,55    2,90 3,02 3,39 3,77 4,18   4,76   5,22
+95         1993        1,73   2,21   2,55    2,90 3,02 3,39 3,78 4,18   4,76   5,22
+96         1994        1,73   2,21   2,56    2,91 3,02 3,39 3,78 4,19   4,76   5,23
+97         1995        1,73   2,21   2,56    2,91 3,02 3,39 3,78 4,19   4,76   5,23
+98         1996        1,73   2,22   2,56    2,91 3,03 3,40 3,78 4,19   4,77   5,23
+99         1997        1,74   2,22   2,56    2,91 3,03 3,40 3,79 4,19   4,77   5,23
+
+
+                                        76
+            Ano                             Tempo de retorno (anos)
+Ano
+      correspondente    2      5      10      20   25    50   100 200   500    1000
+100        1998        1,74   2,22   2,57    2,92 3,03 3,40 3,79 4,20   4,77   5,24
+101        1999        1,74   2,22   2,57    2,92 3,03 3,40 3,79 4,20   4,77   5,24
+102        2000        1,74   2,23   2,57    2,92 3,04 3,41 3,79 4,20   4,78   5,24
+103        2001        1,75   2,23   2,57    2,92 3,04 3,41 3,80 4,20   4,78   5,24
+104        2002        1,75   2,23   2,58    2,93 3,04 3,41 3,80 4,21   4,78   5,25
+105        2003        1,75   2,23   2,58    2,93 3,04 3,41 3,80 4,21   4,79   5,25
+106        2004        1,75   2,24   2,58    2,93 3,05 3,42 3,80 4,21   4,79   5,25
+107        2005        1,76   2,24   2,58    2,93 3,05 3,42 3,81 4,21   4,79   5,25
+108        2006        1,76   2,24   2,59    2,94 3,05 3,42 3,81 4,22   4,79   5,26
+109        2007        1,76   2,24   2,59    2,94 3,05 3,42 3,81 4,22   4,80   5,26
+110        2008        1,76   2,25   2,59    2,94 3,06 3,43 3,81 4,22   4,80   5,26
+111        2009        1,77   2,25   2,59    2,94 3,06 3,43 3,82 4,23   4,80   5,26
+112        2010        1,77   2,25   2,60    2,95 3,06 3,43 3,82 4,23   4,80   5,27
+113        2011        1,77   2,25   2,60    2,95 3,06 3,43 3,82 4,23   4,81   5,27
+114        2012        1,78   2,26   2,60    2,95 3,07 3,44 3,82 4,23   4,81   5,27
+115        2013        1,78   2,26   2,60    2,95 3,07 3,44 3,83 4,24   4,81   5,27
+116        2014        1,78   2,26   2,61    2,96 3,07 3,44 3,83 4,24   4,81   5,28
+117        2015        1,78   2,26   2,61    2,96 3,07 3,44 3,83 4,24   4,82   5,28
+118        2016        1,79   2,27   2,61    2,96 3,08 3,45 3,83 4,24   4,82   5,28
+119        2017        1,79   2,27   2,61    2,96 3,08 3,45 3,84 4,25   4,82   5,28
+120        2018        1,79   2,27   2,62    2,97 3,08 3,45 3,84 4,25   4,82   5,29
+121        2019        1,79   2,27   2,62    2,97 3,08 3,45 3,84 4,25   4,83   5,29
+122        2020        1,80   2,28   2,62    2,97 3,09 3,46 3,84 4,25   4,83   5,29
+123        2021        1,80   2,28   2,62    2,97 3,09 3,46 3,85 4,26   4,83   5,29
+124        2022        1,80   2,28   2,63    2,98 3,09 3,46 3,85 4,26   4,83   5,30
+125        2023        1,80   2,29   2,63    2,98 3,10 3,46 3,85 4,26   4,84   5,30
+126        2024        1,81   2,29   2,63    2,98 3,10 3,47 3,85 4,26   4,84   5,30
+
+
+
+
+                                        77
+78
+
